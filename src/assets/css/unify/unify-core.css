@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #72c02c;
+  color: #ff9966;
   outline: none;
 }
 
@@ -67,20 +67,20 @@ h1, h2, h3, h4, h5, h6 {
 ------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background-color: #72c02c;
+  background-color: #ff9966;
 }
 
 ::selection {
   color: #fff;
-  background-color: #72c02c;
+  background-color: #ff9966;
 }
 
 .g-bg-primary ::-moz-selection {
-  color: #72c02c;
+  color: #ff9966;
   background-color: #fff;
 }
 
 .g-bg-primary ::selection {
-  color: #72c02c;
+  color: #ff9966;
   background-color: #fff;
 }
