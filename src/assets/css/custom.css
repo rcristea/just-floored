@@ -3,10 +3,10 @@
     font-size: 21px;
 }
 
-.just-floored-logo-orange {
-    color: #ff9966;
+.color-orange {
+    color: #ff9966 !important;
 }
 
-.just-floored-logo-gray {
-    color: #858585;
+.color-gray {
+    color: #858585 !important;
 }
