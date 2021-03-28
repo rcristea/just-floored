@@ -15093,7 +15093,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   right: 0;
   bottom: .2em;
   height: .3em;
-  background-color: rgba(114, 192, 44, 0.8);
+  background-color: rgba(255, 153, 102, 0.8);
   z-index: -1;
 }
 
@@ -18569,7 +18569,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-pagination-v1-2--nav:hover {
-  background-color: rgba(114, 192, 44, 0.8);
+  background-color: rgba(255, 153, 102, 0.8);
 }
 
 /* Pagination Style v3 */

@@ -15180,7 +15180,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   right: 0;
   bottom: .2em;
   height: .3em;
-  background-color: rgba(114, 192, 44, 0.8);
+  background-color: rgba(255, 153, 102, 0.8);
   z-index: -1;
 }
 
@@ -18656,7 +18656,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-pagination-v1-2--nav:hover {
-  background-color: rgba(114, 192, 44, 0.8);
+  background-color: rgba(255, 153, 102, 0.8);
 }
 
 /* Pagination Style v3 */
@@ -27241,7 +27241,7 @@ pre[class*="language-"] .toolbar-item a {
 /* Green Gradient */
 .g-bg-green-gradient-opacity-v1,
 .g-bg-green-gradient-opacity-v1--after::after {
-  background-image: linear-gradient(to bottom, rgba(51, 152, 220, 0.5) 0%, rgba(114, 192, 44, 0.8) 100%);
+  background-image: linear-gradient(to bottom, rgba(51, 152, 220, 0.5) 0%, rgba(255, 153, 102, 0.8) 100%);
   background-repeat: repeat-x;
 }
 
@@ -27539,23 +27539,23 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-bg-primary-opacity-0_8 {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-primary-opacity-0_8--hover:hover {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-primary-opacity-0_8--hover--after:hover::after {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-primary-opacity-0_8--before::after, .g-bg-primary-opacity-0_8--after::after {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-primary-opacity-0_8--before--hover:hover::after, .g-bg-primary-opacity-0_8--after--hover:hover::after {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-primary-opacity-0_9 {
@@ -27797,7 +27797,7 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-bg-white-opacity-0_8--hover--after:hover::after {
-  background-color: rgba(114, 192, 44, 0.8) !important;
+  background-color: rgba(255, 153, 102, 0.8) !important;
 }
 
 .g-bg-white-opacity-0_9 {
