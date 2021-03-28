@@ -21396,10 +21396,10 @@ video {
     background-color: inherit;
   }
   .u-navbar--inline-submenu--lg .dropdown-menu::after {
-    left: 100%;
+    left: 99%;
   }
   .u-navbar--inline-submenu--lg .dropdown-menu::before {
-    right: 100%;
+    right: 99%;
   }
   .u-navbar--inline-submenu--lg .dropdown-menu > li {
     display: inline-block;
