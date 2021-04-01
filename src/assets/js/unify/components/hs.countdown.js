@@ -310,7 +310,7 @@
         text: function (value) {
           return value + (options['additional-text'] || '');
         },
-        colors: [options['bg-color'] || '#eeeeee', options['fg-color'] || '#ff9966'],
+        colors: [options['bg-color'] || '#eeeeee', options['fg-color'] || '#ee8d39'],
         duration: 0,
         wrpClass: self.config['wrpClass'],
         textClass: self.config['textClass'],
