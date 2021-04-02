@@ -11,17 +11,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { MainImageComponent } from './components/main-image/main-image.component';
-import { MainInfoComponent } from './components/main-info/main-info.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutUsComponent } from './components/pages/about-us/about-us.component';
+import { HomePageComponent } from './components/pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainImageComponent,
-    MainInfoComponent,
     FooterComponent,
+    AboutUsComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
