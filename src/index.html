@@ -5,7 +5,7 @@
   <title>JustFloored</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/img/logos/icon.png">
+  <link rel="icon" type="image/x-icon" href="assets/img/logos/logo_jf_icon.png">
 
   <!-- CSS Global Compulsory -->
   <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
@@ -35,8 +35,6 @@
 </head>
 <body>
   <app-root></app-root>
-  <!-- TODO remove this -->
-  <div style="height: 10000px"></div>
 
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -57,6 +55,7 @@
   <script src="assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
   <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="assets/vendor/appear.js"></script>
 
   <!-- JS Unify -->
   <script src="assets/js/unify/hs.core.js"></script>
@@ -67,6 +66,7 @@
   <script src="assets/js/unify/helpers/hs.hamburgers.js"></script>
   <script src="assets/js/unify/components/hs.dropdown.js"></script>
   <script src="assets/js/unify/components/hs.scrollbar.js"></script>
+  <script src="assets/js/unify/components/hs.onscroll-animation.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -76,6 +76,9 @@
 
       // initialization of carousel
       $.HSCore.components.HSCarousel.init('.js-carousel');
+      
+      // initialization of scroll animation
+      $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
 
       // initialization of masonry
       $('.masonry-grid').imagesLoaded().then(function () {

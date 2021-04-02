@@ -4,9 +4,17 @@
 }
 
 .color-orange {
-    color: #ff9966 !important;
+    color: #ee8d39 !important;
 }
 
 .color-gray {
     color: #858585 !important;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.what-we-do-image {
+    height: 300px;
 }

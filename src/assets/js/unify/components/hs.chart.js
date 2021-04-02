@@ -22,9 +22,9 @@
 			 * @var Object _baseConfig
 			 */
 			_baseConfig: {
-				fillColor: '#ff9966',
-				lineColor: '#ff9966',
-				barColor: '#ff9966'
+				fillColor: '#ee8d39',
+				lineColor: '#ee8d39',
+				barColor: '#ee8d39'
 			},
 
 			/**
