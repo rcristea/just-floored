@@ -18,3 +18,16 @@
 .what-we-do-image {
     height: 300px;
 }
+
+.floor-link {
+    color: #555;
+}
+
+.floor-link:hover {
+    text-decoration: none;
+}
+
+.img-flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
