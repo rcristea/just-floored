@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
+import { FloorsComponent } from './componenets/pages/floors/floors.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomePageComponent } from './components/pages/home-page/home-page.compon
     FooterComponent,
     AboutUsComponent,
     HomePageComponent,
+    FloorsComponent,
   ],
   imports: [
     BrowserModule,
