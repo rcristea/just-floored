@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { EngineeredComponent } from './components/pages/engineered/engineered.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { FloorsComponent } from './components/pages/floors/floors.component';
     AboutUsComponent,
     HomePageComponent,
     FloorsComponent,
+    ServicesComponent,
+    EngineeredComponent,
   ],
   imports: [
     BrowserModule,
