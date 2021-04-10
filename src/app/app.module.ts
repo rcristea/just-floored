@@ -17,6 +17,7 @@ import { HomePageComponent } from './components/pages/home-page/home-page.compon
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { LaminateComponent } from './components/pages/laminate/laminate.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { EngineeredComponent } from './components/pages/engineered/engineered.co
     FloorsComponent,
     ServicesComponent,
     EngineeredComponent,
+    LaminateComponent,
   ],
   imports: [
     BrowserModule,
