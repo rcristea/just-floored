@@ -17,6 +17,10 @@ import { HomePageComponent } from './components/pages/home-page/home-page.compon
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
+import { LaminateP2Component } from './components/pages/laminate/laminate-p2/laminate-p2.component';
+import { LaminateP3Component } from './components/pages/laminate/laminate-p3/laminate-p3.component';
+import { LaminateP4Component } from './components/pages/laminate/laminate-p4/laminate-p4.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { EngineeredComponent } from './components/pages/engineered/engineered.co
     FloorsComponent,
     ServicesComponent,
     EngineeredComponent,
+    LaminateP1Component,
+    LaminateP2Component,
+    LaminateP3Component,
+    LaminateP4Component,
   ],
   imports: [
     BrowserModule,
