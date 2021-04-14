@@ -31,3 +31,37 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+.mh-525 {
+    max-height: 525px;
+    min-width: 350px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mh-525 {
+        max-height: 435px;
+        min-width: 290px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mh-525 {
+        max-height: 315px;
+        min-width: 210px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mh-525 {
+        max-height: 765px;
+        min-width: 510px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mh-525 {
+        height: auto;
+        min-width: none;
+        width: auto;
+    }
+}
