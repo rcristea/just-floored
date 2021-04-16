@@ -9,6 +9,9 @@ import { LaminateP2Component } from './components/pages/laminate/laminate-p2/lam
 import { LaminateP3Component } from './components/pages/laminate/laminate-p3/laminate-p3.component';
 import { LaminateP4Component } from './components/pages/laminate/laminate-p4/laminate-p4.component';
 import { ServicesComponent } from './components/pages/services/services.component';
+import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
+import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
+import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -19,6 +22,9 @@ const routes: Routes = [
   { path: 'laminate/page/2', component: LaminateP2Component },
   { path: 'laminate/page/3', component: LaminateP3Component },
   { path: 'laminate/page/4', component: LaminateP4Component },
+  { path: 'vinyl/page/1', component: VinylP1Component },
+  { path: 'vinyl/page/2', component: VinylP2Component },
+  { path: 'vinyl/page/3', component: VinylP3Component },
   { path: 'services', component: ServicesComponent },
 ];
 

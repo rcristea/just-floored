@@ -21,6 +21,9 @@ import { LaminateP1Component } from './components/pages/laminate/laminate-p1/lam
 import { LaminateP2Component } from './components/pages/laminate/laminate-p2/laminate-p2.component';
 import { LaminateP3Component } from './components/pages/laminate/laminate-p3/laminate-p3.component';
 import { LaminateP4Component } from './components/pages/laminate/laminate-p4/laminate-p4.component';
+import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
+import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
+import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,9 @@ import { LaminateP4Component } from './components/pages/laminate/laminate-p4/lam
     LaminateP2Component,
     LaminateP3Component,
     LaminateP4Component,
+    VinylP1Component,
+    VinylP2Component,
+    VinylP3Component,
   ],
   imports: [
     BrowserModule,
