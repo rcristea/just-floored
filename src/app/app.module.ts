@@ -24,6 +24,9 @@ import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.com
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
 import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { EngineeredAcaciaComponent } from './components/pages/engineered/engineered-acacia/engineered-acacia.component';
+import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
+import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,9 @@ import { EngineeredComponent } from './components/pages/engineered/engineered.co
     VinylP2Component,
     VinylP3Component,
     EngineeredComponent,
+    EngineeredAcaciaComponent,
+    EngineeredBirchComponent,
+    EngineeredHickoryComponent,
   ],
   imports: [
     BrowserModule,

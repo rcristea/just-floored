@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
+import { EngineeredAcaciaComponent } from './components/pages/engineered/engineered-acacia/engineered-acacia.component';
+import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
+import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
@@ -18,6 +21,9 @@ const routes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
   { path: 'floors', component: FloorsComponent },
   { path: 'engineered', component: EngineeredComponent },
+  { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
+  { path: 'engineered/birch', component: EngineeredBirchComponent },
+  { path: 'engineered/hickory', component: EngineeredHickoryComponent },
   { path: 'laminate/page/1', component: LaminateP1Component },
   { path: 'laminate/page/2', component: LaminateP2Component },
   { path: 'laminate/page/3', component: LaminateP3Component },
