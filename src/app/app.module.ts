@@ -23,6 +23,7 @@ import { LaminateP4Component } from './components/pages/laminate/laminate-p4/lam
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
 import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
+import { EngineeredComponent } from './components/pages/engineered/engineered.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.com
     VinylP1Component,
     VinylP2Component,
     VinylP3Component,
+    EngineeredComponent,
   ],
   imports: [
     BrowserModule,
