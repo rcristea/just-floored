@@ -17,9 +17,16 @@ import { LaminateRandomWidthComponent } from './components/pages/laminate/lamina
 import { LaminateSingleWidthComponent } from './components/pages/laminate/laminate-single-width/laminate-single-width.component';
 import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
 import { ServicesComponent } from './components/pages/services/services.component';
+import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
 import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
+import { VinylWf6Component } from './components/pages/vinyl/vinyl-wf6/vinyl-wf6.component';
+import { VinylWf8Component } from './components/pages/vinyl/vinyl-wf8/vinyl-wf8.component';
+import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.component';
+import { VinylWpcP1Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p1/vinyl-wpc-p1.component';
+import { VinylWpcP2Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p2/vinyl-wpc-p2.component';
+import { VinylWpcP3Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p3/vinyl-wpc-p3.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -41,6 +48,13 @@ const routes: Routes = [
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
+  { path: 'vinyl/lvp', component: VinylLvpComponent },
+  { path: 'vinyl/wpc/page/1', component: VinylWpcP1Component },
+  { path: 'vinyl/wpc/page/2', component: VinylWpcP2Component },
+  { path: 'vinyl/wpc/page/3', component: VinylWpcP3Component },
+  { path: 'vinyl/wpc/wf6', component: VinylWf6Component },
+  { path: 'vinyl/wpc/wf8', component: VinylWf8Component },
+  { path: 'vinyl/wpc/wf9', component: VinylWf9Component },
   { path: 'services', component: ServicesComponent },
 ];
 

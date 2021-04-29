@@ -32,6 +32,13 @@ import { LaminateHickoryComponent } from './components/pages/laminate/laminate-h
 import { LaminateSingleWidthComponent } from './components/pages/laminate/laminate-single-width/laminate-single-width.component';
 import { LaminateRandomWidthComponent } from './components/pages/laminate/laminate-random-width/laminate-random-width.component';
 import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
+import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
+import { VinylWpcP1Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p1/vinyl-wpc-p1.component';
+import { VinylWpcP2Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p2/vinyl-wpc-p2.component';
+import { VinylWpcP3Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p3/vinyl-wpc-p3.component';
+import { VinylWf6Component } from './components/pages/vinyl/vinyl-wf6/vinyl-wf6.component';
+import { VinylWf8Component } from './components/pages/vinyl/vinyl-wf8/vinyl-wf8.component';
+import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +65,13 @@ import { LaminateValueCollectionComponent } from './components/pages/laminate/la
     LaminateSingleWidthComponent,
     LaminateRandomWidthComponent,
     LaminateValueCollectionComponent,
+    VinylLvpComponent,
+    VinylWpcP1Component,
+    VinylWpcP2Component,
+    VinylWpcP3Component,
+    VinylWf6Component,
+    VinylWf8Component,
+    VinylWf9Component,
   ],
   imports: [
     BrowserModule,
