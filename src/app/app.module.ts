@@ -24,6 +24,14 @@ import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.com
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
 import { VinylP3Component } from './components/pages/vinyl/vinyl-p3/vinyl-p3.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { EngineeredAcaciaComponent } from './components/pages/engineered/engineered-acacia/engineered-acacia.component';
+import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
+import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
+import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
+import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
+import { LaminateSingleWidthComponent } from './components/pages/laminate/laminate-single-width/laminate-single-width.component';
+import { LaminateRandomWidthComponent } from './components/pages/laminate/laminate-random-width/laminate-random-width.component';
+import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +50,14 @@ import { EngineeredComponent } from './components/pages/engineered/engineered.co
     VinylP2Component,
     VinylP3Component,
     EngineeredComponent,
+    EngineeredAcaciaComponent,
+    EngineeredBirchComponent,
+    EngineeredHickoryComponent,
+    LaminateAcaciaComponent,
+    LaminateHickoryComponent,
+    LaminateSingleWidthComponent,
+    LaminateRandomWidthComponent,
+    LaminateValueCollectionComponent,
   ],
   imports: [
     BrowserModule,
