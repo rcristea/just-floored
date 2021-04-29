@@ -27,6 +27,7 @@ import { EngineeredComponent } from './components/pages/engineered/engineered.co
 import { EngineeredAcaciaComponent } from './components/pages/engineered/engineered-acacia/engineered-acacia.component';
 import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
 import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
+import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { EngineeredHickoryComponent } from './components/pages/engineered/engine
     EngineeredAcaciaComponent,
     EngineeredBirchComponent,
     EngineeredHickoryComponent,
+    LaminateAcaciaComponent,
   ],
   imports: [
     BrowserModule,

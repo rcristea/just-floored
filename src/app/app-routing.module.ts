@@ -7,6 +7,7 @@ import { EngineeredHickoryComponent } from './components/pages/engineered/engine
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
+import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
 import { LaminateP2Component } from './components/pages/laminate/laminate-p2/laminate-p2.component';
 import { LaminateP3Component } from './components/pages/laminate/laminate-p3/laminate-p3.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'laminate/page/2', component: LaminateP2Component },
   { path: 'laminate/page/3', component: LaminateP3Component },
   { path: 'laminate/page/4', component: LaminateP4Component },
+  { path: 'laminate/acacia', component: LaminateAcaciaComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
