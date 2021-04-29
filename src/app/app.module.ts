@@ -28,6 +28,10 @@ import { EngineeredAcaciaComponent } from './components/pages/engineered/enginee
 import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
 import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
+import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
+import { LaminateSingleWidthComponent } from './components/pages/laminate/laminate-single-width/laminate-single-width.component';
+import { LaminateRandomWidthComponent } from './components/pages/laminate/laminate-random-width/laminate-random-width.component';
+import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +54,10 @@ import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-ac
     EngineeredBirchComponent,
     EngineeredHickoryComponent,
     LaminateAcaciaComponent,
+    LaminateHickoryComponent,
+    LaminateSingleWidthComponent,
+    LaminateRandomWidthComponent,
+    LaminateValueCollectionComponent,
   ],
   imports: [
     BrowserModule,
