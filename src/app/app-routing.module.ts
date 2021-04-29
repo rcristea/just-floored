@@ -5,6 +5,7 @@ import { EngineeredAcaciaComponent } from './components/pages/engineered/enginee
 import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
 import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { AcaciaCologneAcr042Component } from './components/pages/engineered/floors/acacia-cologne-acr042/acacia-cologne-acr042.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },
   { path: 'engineered/hickory', component: EngineeredHickoryComponent },
+  { path: 'engineered/acaia-cologne-acr042', component: AcaciaCologneAcr042Component },
   { path: 'laminate/page/1', component: LaminateP1Component },
   { path: 'laminate/page/2', component: LaminateP2Component },
   { path: 'laminate/page/3', component: LaminateP3Component },
