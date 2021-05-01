@@ -44,6 +44,7 @@ import { AcaciaLisbonAcr044Component } from './components/pages/engineered/floor
 import { CostaBeachComponent } from './components/pages/engineered/floors/costa-beach/costa-beach.component';
 import { HickoryKlamathHir002Component } from './components/pages/engineered/floors/hickory-klamath-hir002/hickory-klamath-hir002.component';
 import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
+import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +83,7 @@ import { HickoryMojaveHir001Component } from './components/pages/engineered/floo
     CostaBeachComponent,
     HickoryKlamathHir002Component,
     HickoryMojaveHir001Component,
+    HickoryOmakHir003Component,
   ],
   imports: [
     BrowserModule,
