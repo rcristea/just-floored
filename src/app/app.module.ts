@@ -39,6 +39,13 @@ import { VinylWpcP3Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wp
 import { VinylWf6Component } from './components/pages/vinyl/vinyl-wf6/vinyl-wf6.component';
 import { VinylWf8Component } from './components/pages/vinyl/vinyl-wf8/vinyl-wf8.component';
 import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.component';
+import { AcaciaCologneAcr042Component } from './components/pages/engineered/floors/acacia-cologne-acr042/acacia-cologne-acr042.component';
+import { AcaciaLisbonAcr044Component } from './components/pages/engineered/floors/acacia-lisbon-acr044/acacia-lisbon-acr044.component';
+import { CostaBeachComponent } from './components/pages/engineered/floors/costa-beach/costa-beach.component';
+import { HickoryKlamathHir002Component } from './components/pages/engineered/floors/hickory-klamath-hir002/hickory-klamath-hir002.component';
+import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
+import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
+import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +79,13 @@ import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.
     VinylWf6Component,
     VinylWf8Component,
     VinylWf9Component,
+    AcaciaCologneAcr042Component,
+    AcaciaLisbonAcr044Component,
+    CostaBeachComponent,
+    HickoryKlamathHir002Component,
+    HickoryMojaveHir001Component,
+    HickoryOmakHir003Component,
+    SantaBarbaraBeachComponent,
   ],
   imports: [
     BrowserModule,

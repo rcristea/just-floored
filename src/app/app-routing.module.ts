@@ -5,6 +5,13 @@ import { EngineeredAcaciaComponent } from './components/pages/engineered/enginee
 import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
 import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
 import { EngineeredComponent } from './components/pages/engineered/engineered.component';
+import { AcaciaCologneAcr042Component } from './components/pages/engineered/floors/acacia-cologne-acr042/acacia-cologne-acr042.component';
+import { AcaciaLisbonAcr044Component } from './components/pages/engineered/floors/acacia-lisbon-acr044/acacia-lisbon-acr044.component';
+import { CostaBeachComponent } from './components/pages/engineered/floors/costa-beach/costa-beach.component';
+import { HickoryKlamathHir002Component } from './components/pages/engineered/floors/hickory-klamath-hir002/hickory-klamath-hir002.component';
+import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
+import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
+import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
@@ -36,6 +43,13 @@ const routes: Routes = [
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },
   { path: 'engineered/hickory', component: EngineeredHickoryComponent },
+  { path: 'engineered/acacia-cologne-acr042', component: AcaciaCologneAcr042Component },
+  { path: 'engineered/acacia-lisbon-acr044', component: AcaciaLisbonAcr044Component },
+  { path: 'engineered/costa-beach-6l', component: CostaBeachComponent },
+  { path: 'engineered/hickory-klamath-hir002', component: HickoryKlamathHir002Component },
+  { path: 'engineered/hickory-mojave-hir001', component: HickoryMojaveHir001Component },
+  { path: 'engineered/hickory-omak-hir003', component: HickoryOmakHir003Component },
+  { path: 'engineered/santa-barbara-beach-6p', component: SantaBarbaraBeachComponent },
   { path: 'laminate/page/1', component: LaminateP1Component },
   { path: 'laminate/page/2', component: LaminateP2Component },
   { path: 'laminate/page/3', component: LaminateP3Component },
