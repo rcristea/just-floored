@@ -41,6 +41,7 @@ import { VinylWf8Component } from './components/pages/vinyl/vinyl-wf8/vinyl-wf8.
 import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.component';
 import { AcaciaCologneAcr042Component } from './components/pages/engineered/floors/acacia-cologne-acr042/acacia-cologne-acr042.component';
 import { AcaciaLisbonAcr044Component } from './components/pages/engineered/floors/acacia-lisbon-acr044/acacia-lisbon-acr044.component';
+import { CostaBeachComponent } from './components/pages/engineered/floors/costa-beach/costa-beach.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +77,7 @@ import { AcaciaLisbonAcr044Component } from './components/pages/engineered/floor
     VinylWf9Component,
     AcaciaCologneAcr042Component,
     AcaciaLisbonAcr044Component,
+    CostaBeachComponent,
   ],
   imports: [
     BrowserModule,
