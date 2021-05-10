@@ -47,6 +47,7 @@ import { HickoryMojaveHir001Component } from './components/pages/engineered/floo
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
 import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
+import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt10
     HickoryOmakHir003Component,
     SantaBarbaraBeachComponent,
     Gt102PatinaOakComponent,
+    Gt105SnowOakComponent,
   ],
   imports: [
     BrowserModule,
