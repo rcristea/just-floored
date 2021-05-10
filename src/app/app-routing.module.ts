@@ -16,6 +16,7 @@ import { FloorsComponent } from './components/pages/floors/floors.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
 import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
+import { Gt108TawnyOakComponent } from './components/pages/laminate/floors/gt108-tawny-oak/gt108-tawny-oak.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -63,6 +64,7 @@ const routes: Routes = [
   { path: 'laminate/value-collection', component: LaminateValueCollectionComponent },
   { path: 'laminate/gt102-patina-oak', component: Gt102PatinaOakComponent },
   { path: 'laminate/gt105-snow-oak', component: Gt105SnowOakComponent },
+  { path: 'laminate/gt108-tawny-oak', component: Gt108TawnyOakComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
