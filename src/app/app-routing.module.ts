@@ -22,6 +22,7 @@ import { Gt202ReddishComponent } from './components/pages/laminate/floors/gt202-
 import { Gt203ChocolateComponent } from './components/pages/laminate/floors/gt203-chocolate/gt203-chocolate.component';
 import { Gt204GreyComponent } from './components/pages/laminate/floors/gt204-grey/gt204-grey.component';
 import { Gt212VolcanicAshComponent } from './components/pages/laminate/floors/gt212-volcanic-ash/gt212-volcanic-ash.component';
+import { Gt213GeyerWalnutComponent } from './components/pages/laminate/floors/gt213-geyer-walnut/gt213-geyer-walnut.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -75,6 +76,7 @@ const routes: Routes = [
   { path: 'laminate/gt203-chocolate', component: Gt203ChocolateComponent },
   { path: 'laminate/gt204-grey', component: Gt204GreyComponent },
   { path: 'laminate/gt212-volcanic-ash', component: Gt212VolcanicAshComponent },
+  { path: 'laminate/gt213-geyer-walnut', component: Gt213GeyerWalnutComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
