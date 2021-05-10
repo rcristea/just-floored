@@ -59,6 +59,7 @@ import { Gt215RiverCypressComponent } from './components/pages/laminate/floors/g
 import { Gt216OldMasterComponent } from './components/pages/laminate/floors/gt216-old-master/gt216-old-master.component';
 import { Gt217OldCaptainComponent } from './components/pages/laminate/floors/gt217-old-captain/gt217-old-captain.component';
 import { Gt302RoseWoodComponent } from './components/pages/laminate/floors/gt302-rose-wood/gt302-rose-wood.component';
+import { Gt307BrazilianCherryComponent } from './components/pages/laminate/floors/gt307-brazilian-cherry/gt307-brazilian-cherry.component';
 
 @NgModule({
   declarations: [
@@ -112,6 +113,7 @@ import { Gt302RoseWoodComponent } from './components/pages/laminate/floors/gt302
     Gt216OldMasterComponent,
     Gt217OldCaptainComponent,
     Gt302RoseWoodComponent,
+    Gt307BrazilianCherryComponent,
   ],
   imports: [
     BrowserModule,
