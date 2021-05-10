@@ -52,6 +52,7 @@ import { Gt108TawnyOakComponent } from './components/pages/laminate/floors/gt108
 import { Gt201CoffeeComponent } from './components/pages/laminate/floors/gt201-coffee/gt201-coffee.component';
 import { Gt202ReddishComponent } from './components/pages/laminate/floors/gt202-reddish/gt202-reddish.component';
 import { Gt203ChocolateComponent } from './components/pages/laminate/floors/gt203-chocolate/gt203-chocolate.component';
+import { Gt204GreyComponent } from './components/pages/laminate/floors/gt204-grey/gt204-grey.component';
 
 @NgModule({
   declarations: [
@@ -98,6 +99,7 @@ import { Gt203ChocolateComponent } from './components/pages/laminate/floors/gt20
     Gt201CoffeeComponent,
     Gt202ReddishComponent,
     Gt203ChocolateComponent,
+    Gt204GreyComponent,
   ],
   imports: [
     BrowserModule,

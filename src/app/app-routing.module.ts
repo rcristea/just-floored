@@ -20,6 +20,7 @@ import { Gt108TawnyOakComponent } from './components/pages/laminate/floors/gt108
 import { Gt201CoffeeComponent } from './components/pages/laminate/floors/gt201-coffee/gt201-coffee.component';
 import { Gt202ReddishComponent } from './components/pages/laminate/floors/gt202-reddish/gt202-reddish.component';
 import { Gt203ChocolateComponent } from './components/pages/laminate/floors/gt203-chocolate/gt203-chocolate.component';
+import { Gt204GreyComponent } from './components/pages/laminate/floors/gt204-grey/gt204-grey.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -71,6 +72,7 @@ const routes: Routes = [
   { path: 'laminate/gt201-coffee', component: Gt201CoffeeComponent},
   { path: 'laminate/gt202-reddish', component: Gt202ReddishComponent },
   { path: 'laminate/gt203-chocolate', component: Gt203ChocolateComponent },
+  { path: 'laminate/gt204-grey', component: Gt204GreyComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
