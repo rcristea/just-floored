@@ -46,6 +46,37 @@ import { HickoryKlamathHir002Component } from './components/pages/engineered/flo
 import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
+import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
+import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
+import { Gt108TawnyOakComponent } from './components/pages/laminate/floors/gt108-tawny-oak/gt108-tawny-oak.component';
+import { Gt201CoffeeComponent } from './components/pages/laminate/floors/gt201-coffee/gt201-coffee.component';
+import { Gt202ReddishComponent } from './components/pages/laminate/floors/gt202-reddish/gt202-reddish.component';
+import { Gt203ChocolateComponent } from './components/pages/laminate/floors/gt203-chocolate/gt203-chocolate.component';
+import { Gt204GreyComponent } from './components/pages/laminate/floors/gt204-grey/gt204-grey.component';
+import { Gt212VolcanicAshComponent } from './components/pages/laminate/floors/gt212-volcanic-ash/gt212-volcanic-ash.component';
+import { Gt213GeyerWalnutComponent } from './components/pages/laminate/floors/gt213-geyer-walnut/gt213-geyer-walnut.component';
+import { Gt215RiverCypressComponent } from './components/pages/laminate/floors/gt215-river-cypress/gt215-river-cypress.component';
+import { Gt216OldMasterComponent } from './components/pages/laminate/floors/gt216-old-master/gt216-old-master.component';
+import { Gt217OldCaptainComponent } from './components/pages/laminate/floors/gt217-old-captain/gt217-old-captain.component';
+import { Gt302RoseWoodComponent } from './components/pages/laminate/floors/gt302-rose-wood/gt302-rose-wood.component';
+import { Gt307BrazilianCherryComponent } from './components/pages/laminate/floors/gt307-brazilian-cherry/gt307-brazilian-cherry.component';
+import { Gt401GunstockHickoryComponent } from './components/pages/laminate/floors/gt401-gunstock-hickory/gt401-gunstock-hickory.component';
+import { Gt402ExpressoHickoryComponent } from './components/pages/laminate/floors/gt402-expresso-hickory/gt402-expresso-hickory.component';
+import { Gt403SunriseHickoryComponent } from './components/pages/laminate/floors/gt403-sunrise-hickory/gt403-sunrise-hickory.component';
+import { Gt404NightfallHickoryComponent } from './components/pages/laminate/floors/gt404-nightfall-hickory/gt404-nightfall-hickory.component';
+import { Gt405SunsetHickoryComponent } from './components/pages/laminate/floors/gt405-sunset-hickory/gt405-sunset-hickory.component';
+import { Gt406OliveComponent } from './components/pages/laminate/floors/gt406-olive/gt406-olive.component';
+import { Gt407ParkWalnutComponent } from './components/pages/laminate/floors/gt407-park-walnut/gt407-park-walnut.component';
+import { Gt409AcaciaNatureComponent } from './components/pages/laminate/floors/gt409-acacia-nature/gt409-acacia-nature.component';
+import { Gt410AcaciaWalnutComponent } from './components/pages/laminate/floors/gt410-acacia-walnut/gt410-acacia-walnut.component';
+import { Gt702GrandOakComponent } from './components/pages/laminate/floors/gt702-grand-oak/gt702-grand-oak.component';
+import { Gt703MahoganyComponent } from './components/pages/laminate/floors/gt703-mahogany/gt703-mahogany.component';
+import { Gt705BronzeOakComponent } from './components/pages/laminate/floors/gt705-bronze-oak/gt705-bronze-oak.component';
+import { Gt706WinchesterOakComponent } from './components/pages/laminate/floors/gt706-winchester-oak/gt706-winchester-oak.component';
+import { Gt707SilverMapleComponent } from './components/pages/laminate/floors/gt707-silver-maple/gt707-silver-maple.component';
+import { Gt708HeronOakComponent } from './components/pages/laminate/floors/gt708-heron-oak/gt708-heron-oak.component';
+import { Gt709WalnutOakComponent } from './components/pages/laminate/floors/gt709-walnut-oak/gt709-walnut-oak.component';
+import { Gt710ParkWalnutComponent } from './components/pages/laminate/floors/gt710-park-walnut/gt710-park-walnut.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +117,37 @@ import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors
     HickoryMojaveHir001Component,
     HickoryOmakHir003Component,
     SantaBarbaraBeachComponent,
+    Gt102PatinaOakComponent,
+    Gt105SnowOakComponent,
+    Gt108TawnyOakComponent,
+    Gt201CoffeeComponent,
+    Gt202ReddishComponent,
+    Gt203ChocolateComponent,
+    Gt204GreyComponent,
+    Gt212VolcanicAshComponent,
+    Gt213GeyerWalnutComponent,
+    Gt215RiverCypressComponent,
+    Gt216OldMasterComponent,
+    Gt217OldCaptainComponent,
+    Gt302RoseWoodComponent,
+    Gt307BrazilianCherryComponent,
+    Gt401GunstockHickoryComponent,
+    Gt402ExpressoHickoryComponent,
+    Gt403SunriseHickoryComponent,
+    Gt404NightfallHickoryComponent,
+    Gt405SunsetHickoryComponent,
+    Gt406OliveComponent,
+    Gt407ParkWalnutComponent,
+    Gt409AcaciaNatureComponent,
+    Gt410AcaciaWalnutComponent,
+    Gt702GrandOakComponent,
+    Gt703MahoganyComponent,
+    Gt705BronzeOakComponent,
+    Gt706WinchesterOakComponent,
+    Gt707SilverMapleComponent,
+    Gt708HeronOakComponent,
+    Gt709WalnutOakComponent,
+    Gt710ParkWalnutComponent,
   ],
   imports: [
     BrowserModule,
