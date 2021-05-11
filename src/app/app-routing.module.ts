@@ -30,6 +30,7 @@ import { Gt302RoseWoodComponent } from './components/pages/laminate/floors/gt302
 import { Gt307BrazilianCherryComponent } from './components/pages/laminate/floors/gt307-brazilian-cherry/gt307-brazilian-cherry.component';
 import { Gt401GunstockHickoryComponent } from './components/pages/laminate/floors/gt401-gunstock-hickory/gt401-gunstock-hickory.component';
 import { Gt402ExpressoHickoryComponent } from './components/pages/laminate/floors/gt402-expresso-hickory/gt402-expresso-hickory.component';
+import { Gt403SunriseHickoryComponent } from './components/pages/laminate/floors/gt403-sunrise-hickory/gt403-sunrise-hickory.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -91,6 +92,7 @@ const routes: Routes = [
   { path: 'laminate/gt307-brazilian-cherry', component: Gt307BrazilianCherryComponent },
   { path: 'laminate/gt401-gunstock-hickory', component: Gt401GunstockHickoryComponent },
   { path: 'laminate/gt402-expresso-hickory', component: Gt402ExpressoHickoryComponent },
+  { path: 'laminate/gt403-sunrise-hickory', component: Gt403SunriseHickoryComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
