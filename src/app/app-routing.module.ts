@@ -36,6 +36,7 @@ import { Gt405SunsetHickoryComponent } from './components/pages/laminate/floors/
 import { Gt406OliveComponent } from './components/pages/laminate/floors/gt406-olive/gt406-olive.component';
 import { Gt407ParkWalnutComponent } from './components/pages/laminate/floors/gt407-park-walnut/gt407-park-walnut.component';
 import { Gt409AcaciaNatureComponent } from './components/pages/laminate/floors/gt409-acacia-nature/gt409-acacia-nature.component';
+import { Gt410AcaciaWalnutComponent } from './components/pages/laminate/floors/gt410-acacia-walnut/gt410-acacia-walnut.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -103,6 +104,7 @@ const routes: Routes = [
   { path: 'laminate/gt406-olive', component: Gt406OliveComponent },
   { path: 'laminate/gt407-park-walnut', component: Gt407ParkWalnutComponent },
   { path: 'laminate/gt409-acacia-nature', component: Gt409AcaciaNatureComponent },
+  { path: 'laminate/gt410-acacia-walnut', component: Gt410AcaciaWalnutComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },
