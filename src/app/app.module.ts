@@ -67,6 +67,7 @@ import { Gt404NightfallHickoryComponent } from './components/pages/laminate/floo
 import { Gt405SunsetHickoryComponent } from './components/pages/laminate/floors/gt405-sunset-hickory/gt405-sunset-hickory.component';
 import { Gt406OliveComponent } from './components/pages/laminate/floors/gt406-olive/gt406-olive.component';
 import { Gt407ParkWalnutComponent } from './components/pages/laminate/floors/gt407-park-walnut/gt407-park-walnut.component';
+import { Gt409AcaciaNatureComponent } from './components/pages/laminate/floors/gt409-acacia-nature/gt409-acacia-nature.component';
 
 @NgModule({
   declarations: [
@@ -128,6 +129,7 @@ import { Gt407ParkWalnutComponent } from './components/pages/laminate/floors/gt4
     Gt405SunsetHickoryComponent,
     Gt406OliveComponent,
     Gt407ParkWalnutComponent,
+    Gt409AcaciaNatureComponent,
   ],
   imports: [
     BrowserModule,
