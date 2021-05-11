@@ -32,6 +32,7 @@ import { Gt401GunstockHickoryComponent } from './components/pages/laminate/floor
 import { Gt402ExpressoHickoryComponent } from './components/pages/laminate/floors/gt402-expresso-hickory/gt402-expresso-hickory.component';
 import { Gt403SunriseHickoryComponent } from './components/pages/laminate/floors/gt403-sunrise-hickory/gt403-sunrise-hickory.component';
 import { Gt404NightfallHickoryComponent } from './components/pages/laminate/floors/gt404-nightfall-hickory/gt404-nightfall-hickory.component';
+import { Gt405SunsetHickoryComponent } from './components/pages/laminate/floors/gt405-sunset-hickory/gt405-sunset-hickory.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -95,6 +96,7 @@ const routes: Routes = [
   { path: 'laminate/gt402-expresso-hickory', component: Gt402ExpressoHickoryComponent },
   { path: 'laminate/gt403-sunrise-hickory', component: Gt403SunriseHickoryComponent },
   { path: 'laminate/gt404-nightfall-hickory', component: Gt404NightfallHickoryComponent },
+  { path: 'laminate/gt405-sunset-hickory', component: Gt405SunsetHickoryComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },

@@ -64,6 +64,7 @@ import { Gt401GunstockHickoryComponent } from './components/pages/laminate/floor
 import { Gt402ExpressoHickoryComponent } from './components/pages/laminate/floors/gt402-expresso-hickory/gt402-expresso-hickory.component';
 import { Gt403SunriseHickoryComponent } from './components/pages/laminate/floors/gt403-sunrise-hickory/gt403-sunrise-hickory.component';
 import { Gt404NightfallHickoryComponent } from './components/pages/laminate/floors/gt404-nightfall-hickory/gt404-nightfall-hickory.component';
+import { Gt405SunsetHickoryComponent } from './components/pages/laminate/floors/gt405-sunset-hickory/gt405-sunset-hickory.component';
 
 @NgModule({
   declarations: [
@@ -122,6 +123,7 @@ import { Gt404NightfallHickoryComponent } from './components/pages/laminate/floo
     Gt402ExpressoHickoryComponent,
     Gt403SunriseHickoryComponent,
     Gt404NightfallHickoryComponent,
+    Gt405SunsetHickoryComponent,
   ],
   imports: [
     BrowserModule,
