@@ -42,6 +42,7 @@ import { Gt703MahoganyComponent } from './components/pages/laminate/floors/gt703
 import { Gt705BronzeOakComponent } from './components/pages/laminate/floors/gt705-bronze-oak/gt705-bronze-oak.component';
 import { Gt706WinchesterOakComponent } from './components/pages/laminate/floors/gt706-winchester-oak/gt706-winchester-oak.component';
 import { Gt707SilverMapleComponent } from './components/pages/laminate/floors/gt707-silver-maple/gt707-silver-maple.component';
+import { Gt708HeronOakComponent } from './components/pages/laminate/floors/gt708-heron-oak/gt708-heron-oak.component';
 import { LaminateAcaciaComponent } from './components/pages/laminate/laminate-acacia/laminate-acacia.component';
 import { LaminateHickoryComponent } from './components/pages/laminate/laminate-hickory/laminate-hickory.component';
 import { LaminateP1Component } from './components/pages/laminate/laminate-p1/laminate-p1.component';
@@ -115,6 +116,7 @@ const routes: Routes = [
   { path: 'laminate/gt705-bronze-oak', component: Gt705BronzeOakComponent },
   { path: 'laminate/gt706-winchester-oak', component: Gt706WinchesterOakComponent },
   { path: 'laminate/gt707-silver-maple', component: Gt707SilverMapleComponent },
+  { path: 'laminate/gt708-heron-oak', component: Gt708HeronOakComponent },
   { path: 'vinyl/page/1', component: VinylP1Component },
   { path: 'vinyl/page/2', component: VinylP2Component },
   { path: 'vinyl/page/3', component: VinylP3Component },

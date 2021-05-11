@@ -74,6 +74,7 @@ import { Gt703MahoganyComponent } from './components/pages/laminate/floors/gt703
 import { Gt705BronzeOakComponent } from './components/pages/laminate/floors/gt705-bronze-oak/gt705-bronze-oak.component';
 import { Gt706WinchesterOakComponent } from './components/pages/laminate/floors/gt706-winchester-oak/gt706-winchester-oak.component';
 import { Gt707SilverMapleComponent } from './components/pages/laminate/floors/gt707-silver-maple/gt707-silver-maple.component';
+import { Gt708HeronOakComponent } from './components/pages/laminate/floors/gt708-heron-oak/gt708-heron-oak.component';
 
 @NgModule({
   declarations: [
@@ -142,6 +143,7 @@ import { Gt707SilverMapleComponent } from './components/pages/laminate/floors/gt
     Gt705BronzeOakComponent,
     Gt706WinchesterOakComponent,
     Gt707SilverMapleComponent,
+    Gt708HeronOakComponent,
   ],
   imports: [
     BrowserModule,
