@@ -92,6 +92,9 @@ import { Wf606BlackstoneOakComponent } from './components/pages/vinyl/floors/wf6
 import { Wf801WesternOakComponent } from './components/pages/vinyl/floors/wf801-western-oak/wf801-western-oak.component';
 import { Wf802NaturalWalnutComponent } from './components/pages/vinyl/floors/wf802-natural-walnut/wf802-natural-walnut.component';
 import { Wf803CoffeeMapleComponent } from './components/pages/vinyl/floors/wf803-coffee-maple/wf803-coffee-maple.component';
+import { Wf804AshOakComponent } from './components/pages/vinyl/floors/wf804-ash-oak/wf804-ash-oak.component';
+import { Wf901AmberAcaciaComponent } from './components/pages/vinyl/floors/wf901-amber-acacia/wf901-amber-acacia.component';
+import { Wf902NatureAcaciaComponent } from './components/pages/vinyl/floors/wf902-nature-acacia/wf902-nature-acacia.component';
 
 @NgModule({
   declarations: [
@@ -178,6 +181,9 @@ import { Wf803CoffeeMapleComponent } from './components/pages/vinyl/floors/wf803
     Wf801WesternOakComponent,
     Wf802NaturalWalnutComponent,
     Wf803CoffeeMapleComponent,
+    Wf804AshOakComponent,
+    Wf901AmberAcaciaComponent,
+    Wf902NatureAcaciaComponent,
   ],
   imports: [
     BrowserModule,
