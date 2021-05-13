@@ -74,11 +74,13 @@ import { Wf804AshOakComponent } from './components/pages/vinyl/floors/wf804-ash-
 import { Wf901AmberAcaciaComponent } from './components/pages/vinyl/floors/wf901-amber-acacia/wf901-amber-acacia.component';
 import { Wf902NatureAcaciaComponent } from './components/pages/vinyl/floors/wf902-nature-acacia/wf902-nature-acacia.component';
 import { Wf903BalsamComponent } from './components/pages/vinyl/floors/wf903-balsam/wf903-balsam.component';
+import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904-seabrook-oak/wf904-seabrook-oak.component';
 import { Wf905DriftwoodOakComponent } from './components/pages/vinyl/floors/wf905-driftwood-oak/wf905-driftwood-oak.component';
 import { Wf906TavernOakComponent } from './components/pages/vinyl/floors/wf906-tavern-oak/wf906-tavern-oak.component';
 import { Wf907WillowOakComponent } from './components/pages/vinyl/floors/wf907-willow-oak/wf907-willow-oak.component';
 import { Wf908FlintOakComponent } from './components/pages/vinyl/floors/wf908-flint-oak/wf908-flint-oak.component';
 import { Wf909ClarionWoodComponent } from './components/pages/vinyl/floors/wf909-clarion-wood/wf909-clarion-wood.component';
+import { Wf910HarvestWalnutComponent } from './components/pages/vinyl/floors/wf910-harvest-walnut/wf910-harvest-walnut.component';
 import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
@@ -179,6 +181,8 @@ const routes: Routes = [
   { path: 'vinyl/wf907-willow-oak', component: Wf907WillowOakComponent },
   { path: 'vinyl/wf908-flint-oak', component: Wf908FlintOakComponent },
   { path: 'vinyl/wf909-clarion-wood', component: Wf909ClarionWoodComponent },
+  { path: 'vinyl/wf910-harvest-walnut', component: Wf910HarvestWalnutComponent },
+  { path: 'vinyl/wf904-seabrook-oak', component: Wf904SeabrookOakComponent },
   { path: 'services', component: ServicesComponent },
 ];
 
