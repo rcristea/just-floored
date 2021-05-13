@@ -56,6 +56,8 @@ import { LaminateSingleWidthComponent } from './components/pages/laminate/lamina
 import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { Vf001PrestigeComponent } from './components/pages/vinyl/floors/vf001-prestige/vf001-prestige.component';
+import { Vf002RockportComponent } from './components/pages/vinyl/floors/vf002-rockport/vf002-rockport.component';
+import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003-coca-blossom/vf003-coca-blossom.component';
 import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
@@ -133,6 +135,8 @@ const routes: Routes = [
   { path: 'vinyl/wpc/wf8', component: VinylWf8Component },
   { path: 'vinyl/wpc/wf9', component: VinylWf9Component },
   { path: 'vinyl/vf001-prestige', component: Vf001PrestigeComponent },
+  { path: 'vinyl/vf002-rockport', component: Vf002RockportComponent },
+  { path: 'vinyl/vf003-coca-blossom', component: Vf003CocaBlossomComponent },
   { path: 'services', component: ServicesComponent },
 ];
 
