@@ -83,6 +83,9 @@ import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003
 import { Vf004AshfordComponent } from './components/pages/vinyl/floors/vf004-ashford/vf004-ashford.component';
 import { Vf005OakComponent } from './components/pages/vinyl/floors/vf005-oak/vf005-oak.component';
 import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acacia/vf006-acacia.component';
+import { Wf601StoneGreyOakComponent } from './components/pages/vinyl/floors/wf601-stone-grey-oak/wf601-stone-grey-oak.component';
+import { Wf602CountrysideOakComponent } from './components/pages/vinyl/floors/wf602-countryside-oak/wf602-countryside-oak.component';
+import { Wf603RusticOakComponent } from './components/pages/vinyl/floors/wf603-rustic-oak/wf603-rustic-oak.component';
 
 @NgModule({
   declarations: [
@@ -160,6 +163,9 @@ import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acac
     Vf004AshfordComponent,
     Vf005OakComponent,
     Vf006AcaciaComponent,
+    Wf601StoneGreyOakComponent,
+    Wf602CountrysideOakComponent,
+    Wf603RusticOakComponent,
   ],
   imports: [
     BrowserModule,

@@ -61,6 +61,9 @@ import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003
 import { Vf004AshfordComponent } from './components/pages/vinyl/floors/vf004-ashford/vf004-ashford.component';
 import { Vf005OakComponent } from './components/pages/vinyl/floors/vf005-oak/vf005-oak.component';
 import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acacia/vf006-acacia.component';
+import { Wf601StoneGreyOakComponent } from './components/pages/vinyl/floors/wf601-stone-grey-oak/wf601-stone-grey-oak.component';
+import { Wf602CountrysideOakComponent } from './components/pages/vinyl/floors/wf602-countryside-oak/wf602-countryside-oak.component';
+import { Wf603RusticOakComponent } from './components/pages/vinyl/floors/wf603-rustic-oak/wf603-rustic-oak.component';
 import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
@@ -143,6 +146,9 @@ const routes: Routes = [
   { path: 'vinyl/vf004-ashford', component: Vf004AshfordComponent },
   { path: 'vinyl/vf005-oak', component: Vf005OakComponent },
   { path: 'vinyl/vf006-acacia', component: Vf006AcaciaComponent },
+  { path: 'vinyl/wf601-stone-grey-oak', component: Wf601StoneGreyOakComponent },
+  { path: 'vinyl/wf602-countryside-oak', component: Wf602CountrysideOakComponent },
+  { path: 'vinyl/wf603-rustic-oak', component: Wf603RusticOakComponent },
   { path: 'services', component: ServicesComponent },
 ];
 
