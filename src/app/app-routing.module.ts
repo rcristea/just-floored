@@ -58,6 +58,9 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { Vf001PrestigeComponent } from './components/pages/vinyl/floors/vf001-prestige/vf001-prestige.component';
 import { Vf002RockportComponent } from './components/pages/vinyl/floors/vf002-rockport/vf002-rockport.component';
 import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003-coca-blossom/vf003-coca-blossom.component';
+import { Vf004AshfordComponent } from './components/pages/vinyl/floors/vf004-ashford/vf004-ashford.component';
+import { Vf005OakComponent } from './components/pages/vinyl/floors/vf005-oak/vf005-oak.component';
+import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acacia/vf006-acacia.component';
 import { VinylLvpComponent } from './components/pages/vinyl/vinyl-lvp/vinyl-lvp.component';
 import { VinylP1Component } from './components/pages/vinyl/vinyl-p1/vinyl-p1.component';
 import { VinylP2Component } from './components/pages/vinyl/vinyl-p2/vinyl-p2.component';
@@ -137,6 +140,9 @@ const routes: Routes = [
   { path: 'vinyl/vf001-prestige', component: Vf001PrestigeComponent },
   { path: 'vinyl/vf002-rockport', component: Vf002RockportComponent },
   { path: 'vinyl/vf003-coca-blossom', component: Vf003CocaBlossomComponent },
+  { path: 'vinyl/vf004-ashford', component: Vf004AshfordComponent },
+  { path: 'vinyl/vf005-oak', component: Vf005OakComponent },
+  { path: 'vinyl/vf006-acacia', component: Vf006AcaciaComponent },
   { path: 'services', component: ServicesComponent },
 ];
 

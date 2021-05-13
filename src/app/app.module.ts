@@ -80,6 +80,9 @@ import { Gt710ParkWalnutComponent } from './components/pages/laminate/floors/gt7
 import { Vf001PrestigeComponent } from './components/pages/vinyl/floors/vf001-prestige/vf001-prestige.component';
 import { Vf002RockportComponent } from './components/pages/vinyl/floors/vf002-rockport/vf002-rockport.component';
 import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003-coca-blossom/vf003-coca-blossom.component';
+import { Vf004AshfordComponent } from './components/pages/vinyl/floors/vf004-ashford/vf004-ashford.component';
+import { Vf005OakComponent } from './components/pages/vinyl/floors/vf005-oak/vf005-oak.component';
+import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acacia/vf006-acacia.component';
 
 @NgModule({
   declarations: [
@@ -154,6 +157,9 @@ import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003
     Vf001PrestigeComponent,
     Vf002RockportComponent,
     Vf003CocaBlossomComponent,
+    Vf004AshfordComponent,
+    Vf005OakComponent,
+    Vf006AcaciaComponent,
   ],
   imports: [
     BrowserModule,
