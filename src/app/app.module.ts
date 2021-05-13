@@ -77,6 +77,32 @@ import { Gt707SilverMapleComponent } from './components/pages/laminate/floors/gt
 import { Gt708HeronOakComponent } from './components/pages/laminate/floors/gt708-heron-oak/gt708-heron-oak.component';
 import { Gt709WalnutOakComponent } from './components/pages/laminate/floors/gt709-walnut-oak/gt709-walnut-oak.component';
 import { Gt710ParkWalnutComponent } from './components/pages/laminate/floors/gt710-park-walnut/gt710-park-walnut.component';
+import { Vf001PrestigeComponent } from './components/pages/vinyl/floors/vf001-prestige/vf001-prestige.component';
+import { Vf002RockportComponent } from './components/pages/vinyl/floors/vf002-rockport/vf002-rockport.component';
+import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003-coca-blossom/vf003-coca-blossom.component';
+import { Vf004AshfordComponent } from './components/pages/vinyl/floors/vf004-ashford/vf004-ashford.component';
+import { Vf005OakComponent } from './components/pages/vinyl/floors/vf005-oak/vf005-oak.component';
+import { Vf006AcaciaComponent } from './components/pages/vinyl/floors/vf006-acacia/vf006-acacia.component';
+import { Wf601StoneGreyOakComponent } from './components/pages/vinyl/floors/wf601-stone-grey-oak/wf601-stone-grey-oak.component';
+import { Wf602CountrysideOakComponent } from './components/pages/vinyl/floors/wf602-countryside-oak/wf602-countryside-oak.component';
+import { Wf603RusticOakComponent } from './components/pages/vinyl/floors/wf603-rustic-oak/wf603-rustic-oak.component';
+import { Wf604AlexaOakComponent } from './components/pages/vinyl/floors/wf604-alexa-oak/wf604-alexa-oak.component';
+import { Wf605SpringfieldOakComponent } from './components/pages/vinyl/floors/wf605-springfield-oak/wf605-springfield-oak.component';
+import { Wf606BlackstoneOakComponent } from './components/pages/vinyl/floors/wf606-blackstone-oak/wf606-blackstone-oak.component';
+import { Wf801WesternOakComponent } from './components/pages/vinyl/floors/wf801-western-oak/wf801-western-oak.component';
+import { Wf802NaturalWalnutComponent } from './components/pages/vinyl/floors/wf802-natural-walnut/wf802-natural-walnut.component';
+import { Wf803CoffeeMapleComponent } from './components/pages/vinyl/floors/wf803-coffee-maple/wf803-coffee-maple.component';
+import { Wf804AshOakComponent } from './components/pages/vinyl/floors/wf804-ash-oak/wf804-ash-oak.component';
+import { Wf901AmberAcaciaComponent } from './components/pages/vinyl/floors/wf901-amber-acacia/wf901-amber-acacia.component';
+import { Wf902NatureAcaciaComponent } from './components/pages/vinyl/floors/wf902-nature-acacia/wf902-nature-acacia.component';
+import { Wf903BalsamComponent } from './components/pages/vinyl/floors/wf903-balsam/wf903-balsam.component';
+import { Wf905DriftwoodOakComponent } from './components/pages/vinyl/floors/wf905-driftwood-oak/wf905-driftwood-oak.component';
+import { Wf906TavernOakComponent } from './components/pages/vinyl/floors/wf906-tavern-oak/wf906-tavern-oak.component';
+import { Wf907WillowOakComponent } from './components/pages/vinyl/floors/wf907-willow-oak/wf907-willow-oak.component';
+import { Wf908FlintOakComponent } from './components/pages/vinyl/floors/wf908-flint-oak/wf908-flint-oak.component';
+import { Wf909ClarionWoodComponent } from './components/pages/vinyl/floors/wf909-clarion-wood/wf909-clarion-wood.component';
+import { Wf910HarvestWalnutComponent } from './components/pages/vinyl/floors/wf910-harvest-walnut/wf910-harvest-walnut.component';
+import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904-seabrook-oak/wf904-seabrook-oak.component';
 
 @NgModule({
   declarations: [
@@ -148,6 +174,32 @@ import { Gt710ParkWalnutComponent } from './components/pages/laminate/floors/gt7
     Gt708HeronOakComponent,
     Gt709WalnutOakComponent,
     Gt710ParkWalnutComponent,
+    Vf001PrestigeComponent,
+    Vf002RockportComponent,
+    Vf003CocaBlossomComponent,
+    Vf004AshfordComponent,
+    Vf005OakComponent,
+    Vf006AcaciaComponent,
+    Wf601StoneGreyOakComponent,
+    Wf602CountrysideOakComponent,
+    Wf603RusticOakComponent,
+    Wf604AlexaOakComponent,
+    Wf605SpringfieldOakComponent,
+    Wf606BlackstoneOakComponent,
+    Wf801WesternOakComponent,
+    Wf802NaturalWalnutComponent,
+    Wf803CoffeeMapleComponent,
+    Wf804AshOakComponent,
+    Wf901AmberAcaciaComponent,
+    Wf902NatureAcaciaComponent,
+    Wf903BalsamComponent,
+    Wf905DriftwoodOakComponent,
+    Wf906TavernOakComponent,
+    Wf907WillowOakComponent,
+    Wf908FlintOakComponent,
+    Wf909ClarionWoodComponent,
+    Wf910HarvestWalnutComponent,
+    Wf904SeabrookOakComponent,
   ],
   imports: [
     BrowserModule,
