@@ -362,7 +362,7 @@
 }
 
 .g-bg-primary-dark-v2 {
-  background-color: #66ab27 !important;
+  background-color: #d17a2c !important;
 }
 
 .g-bg-primary-dark-v3 {
@@ -2457,15 +2457,15 @@
 }
 
 .g-brd-primary-dark-dark-v2 {
-  border-color: #66ab27 !important;
+  border-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v2--hover:hover, .g-brd-primary-dark-dark-v2--active.active {
-  border-color: #66ab27 !important;
+  border-color: #d17a2c !important;
 }
 
 *:hover > .g-brd-primary-dark-dark-v2--hover-parent {
-  border-color: #66ab27 !important;
+  border-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v3 {
@@ -3092,19 +3092,19 @@
 }
 
 .g-brd-primary-dark-dark-v2-top {
-  border-top-color: #66ab27 !important;
+  border-top-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v2-bottom {
-  border-bottom-color: #66ab27 !important;
+  border-bottom-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v2-left {
-  border-left-color: #66ab27 !important;
+  border-left-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v2-right {
-  border-right-color: #66ab27 !important;
+  border-right-color: #d17a2c !important;
 }
 
 .g-brd-primary-dark-dark-v3-top {

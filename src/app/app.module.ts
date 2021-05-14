@@ -112,6 +112,8 @@ import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-
 import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 import { TestimonialsComponent } from './components/pages/testimonials/testimonials.component';
 import { GoGreenComponent } from './components/pages/go-green/go-green.component';
+import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.component';
+import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
 
 @NgModule({
   declarations: [
@@ -218,6 +220,8 @@ import { GoGreenComponent } from './components/pages/go-green/go-green.component
     VinylPlankFlooringComponent,
     TestimonialsComponent,
     GoGreenComponent,
+    BlogP1Component,
+    BlogP2Component,
   ],
   imports: [
     BrowserModule,
