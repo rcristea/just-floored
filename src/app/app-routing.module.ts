@@ -12,6 +12,7 @@ import { HickoryKlamathHir002Component } from './components/pages/engineered/flo
 import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
+import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
 import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
 import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
 import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
@@ -105,6 +106,7 @@ const routes: Routes = [
   { path: 'engineered-wood-flooring', component: EngineeredWoodFlooringComponent },
   { path: 'laminate-flooring', component: LaminateFlooringComponent },
   { path: 'cork-flooring', component: CorkFlooringComponent },
+  { path: 'bamboo-flooring', component: BambooFlooringComponent },
   { path: 'engineered', component: EngineeredComponent },
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },
