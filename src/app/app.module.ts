@@ -107,6 +107,7 @@ import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
 import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
 import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
+import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
 
 @NgModule({
   declarations: [
@@ -208,6 +209,7 @@ import { LaminateFlooringComponent } from './components/pages/floors/about/lamin
     SolidWoodFlooringComponent,
     EngineeredWoodFlooringComponent,
     LaminateFlooringComponent,
+    CorkFlooringComponent,
   ],
   imports: [
     BrowserModule,
