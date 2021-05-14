@@ -62,6 +62,7 @@ import { LaminateRandomWidthComponent } from './components/pages/laminate/lamina
 import { LaminateSingleWidthComponent } from './components/pages/laminate/laminate-single-width/laminate-single-width.component';
 import { LaminateValueCollectionComponent } from './components/pages/laminate/laminate-value-collection/laminate-value-collection.component';
 import { ServicesComponent } from './components/pages/services/services.component';
+import { TestimonialsComponent } from './components/pages/testimonials/testimonials.component';
 import { Vf001PrestigeComponent } from './components/pages/vinyl/floors/vf001-prestige/vf001-prestige.component';
 import { Vf002RockportComponent } from './components/pages/vinyl/floors/vf002-rockport/vf002-rockport.component';
 import { Vf003CocaBlossomComponent } from './components/pages/vinyl/floors/vf003-coca-blossom/vf003-coca-blossom.component';
@@ -198,6 +199,7 @@ const routes: Routes = [
   { path: 'vinyl/wf904-seabrook-oak', component: Wf904SeabrookOakComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'gallery', component: GalleryComponent },
+  { path: 'testimonials', component: TestimonialsComponent },
 ];
 
 @NgModule({

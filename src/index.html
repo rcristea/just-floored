@@ -67,6 +67,7 @@
   <script src="assets/js/unify/components/hs.dropdown.js"></script>
   <script src="assets/js/unify/components/hs.scrollbar.js"></script>
   <script src="assets/js/unify/components/hs.onscroll-animation.js"></script>
+  <script src="assets/js/unify/components/hs.rating.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -91,6 +92,11 @@
 
       // initialization of popups
       $.HSCore.components.HSPopup.init('.js-fancybox');
+
+      // initalization of rating systems
+      $.HSCore.components.HSRating.init($('.js-rating'), {
+        spacing: 4
+      });
     });
 
     $(window).on('load', function () {

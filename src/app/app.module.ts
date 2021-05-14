@@ -110,6 +110,7 @@ import { LaminateFlooringComponent } from './components/pages/floors/about/lamin
 import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
 import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
 import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
+import { TestimonialsComponent } from './components/pages/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -214,6 +215,7 @@ import { VinylPlankFlooringComponent } from './components/pages/floors/about/vin
     CorkFlooringComponent,
     BambooFlooringComponent,
     VinylPlankFlooringComponent,
+    TestimonialsComponent,
   ],
   imports: [
     BrowserModule,
