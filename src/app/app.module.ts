@@ -109,6 +109,7 @@ import { EngineeredWoodFlooringComponent } from './components/pages/floors/about
 import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
 import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
 import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
+import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 
 @NgModule({
   declarations: [
@@ -212,6 +213,7 @@ import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-
     LaminateFlooringComponent,
     CorkFlooringComponent,
     BambooFlooringComponent,
+    VinylPlankFlooringComponent,
   ],
   imports: [
     BrowserModule,

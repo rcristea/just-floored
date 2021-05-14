@@ -17,6 +17,7 @@ import { CorkFlooringComponent } from './components/pages/floors/about/cork-floo
 import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
 import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
 import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
+import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
@@ -107,6 +108,7 @@ const routes: Routes = [
   { path: 'laminate-flooring', component: LaminateFlooringComponent },
   { path: 'cork-flooring', component: CorkFlooringComponent },
   { path: 'bamboo-flooring', component: BambooFlooringComponent },
+  { path: 'vinyl-plank-flooring', component: VinylPlankFlooringComponent },
   { path: 'engineered', component: EngineeredComponent },
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },
