@@ -12,6 +12,7 @@ import { HickoryKlamathHir002Component } from './components/pages/engineered/flo
 import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
+import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
 import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
@@ -99,6 +100,7 @@ const routes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
   { path: 'floors', component: FloorsComponent },
   { path: 'solid-wood-flooring', component: SolidWoodFlooringComponent },
+  { path: 'engineered-wood-flooring', component: EngineeredWoodFlooringComponent },
   { path: 'engineered', component: EngineeredComponent },
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },

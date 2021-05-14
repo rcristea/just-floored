@@ -105,6 +105,7 @@ import { Wf910HarvestWalnutComponent } from './components/pages/vinyl/floors/wf9
 import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904-seabrook-oak/wf904-seabrook-oak.component';
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
+import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
 
 @NgModule({
   declarations: [
@@ -204,6 +205,7 @@ import { SolidWoodFlooringComponent } from './components/pages/floors/about/soli
     Wf904SeabrookOakComponent,
     GalleryComponent,
     SolidWoodFlooringComponent,
+    EngineeredWoodFlooringComponent,
   ],
   imports: [
     BrowserModule,
