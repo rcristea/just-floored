@@ -106,6 +106,7 @@ import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
 import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
+import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
 
 @NgModule({
   declarations: [
@@ -206,6 +207,7 @@ import { EngineeredWoodFlooringComponent } from './components/pages/floors/about
     GalleryComponent,
     SolidWoodFlooringComponent,
     EngineeredWoodFlooringComponent,
+    LaminateFlooringComponent,
   ],
   imports: [
     BrowserModule,
