@@ -12,7 +12,14 @@ import { HickoryKlamathHir002Component } from './components/pages/engineered/flo
 import { HickoryMojaveHir001Component } from './components/pages/engineered/floors/hickory-mojave-hir001/hickory-mojave-hir001.component';
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
+import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
+import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
+import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
+import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
+import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
+import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
 import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
@@ -96,6 +103,12 @@ const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'floors', component: FloorsComponent },
+  { path: 'solid-wood-flooring', component: SolidWoodFlooringComponent },
+  { path: 'engineered-wood-flooring', component: EngineeredWoodFlooringComponent },
+  { path: 'laminate-flooring', component: LaminateFlooringComponent },
+  { path: 'cork-flooring', component: CorkFlooringComponent },
+  { path: 'bamboo-flooring', component: BambooFlooringComponent },
+  { path: 'vinyl-plank-flooring', component: VinylPlankFlooringComponent },
   { path: 'engineered', component: EngineeredComponent },
   { path: 'engineered/acacia', component: EngineeredAcaciaComponent },
   { path: 'engineered/birch', component: EngineeredBirchComponent },
@@ -184,6 +197,7 @@ const routes: Routes = [
   { path: 'vinyl/wf910-harvest-walnut', component: Wf910HarvestWalnutComponent },
   { path: 'vinyl/wf904-seabrook-oak', component: Wf904SeabrookOakComponent },
   { path: 'services', component: ServicesComponent },
+  { path: 'gallery', component: GalleryComponent },
 ];
 
 @NgModule({

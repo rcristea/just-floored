@@ -103,6 +103,13 @@ import { Wf908FlintOakComponent } from './components/pages/vinyl/floors/wf908-fl
 import { Wf909ClarionWoodComponent } from './components/pages/vinyl/floors/wf909-clarion-wood/wf909-clarion-wood.component';
 import { Wf910HarvestWalnutComponent } from './components/pages/vinyl/floors/wf910-harvest-walnut/wf910-harvest-walnut.component';
 import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904-seabrook-oak/wf904-seabrook-oak.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
+import { SolidWoodFlooringComponent } from './components/pages/floors/about/solid-wood-flooring/solid-wood-flooring.component';
+import { EngineeredWoodFlooringComponent } from './components/pages/floors/about/engineered-wood-flooring/engineered-wood-flooring.component';
+import { LaminateFlooringComponent } from './components/pages/floors/about/laminate-flooring/laminate-flooring.component';
+import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
+import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
+import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 
 @NgModule({
   declarations: [
@@ -200,6 +207,13 @@ import { Wf904SeabrookOakComponent } from './components/pages/vinyl/floors/wf904
     Wf909ClarionWoodComponent,
     Wf910HarvestWalnutComponent,
     Wf904SeabrookOakComponent,
+    GalleryComponent,
+    SolidWoodFlooringComponent,
+    EngineeredWoodFlooringComponent,
+    LaminateFlooringComponent,
+    CorkFlooringComponent,
+    BambooFlooringComponent,
+    VinylPlankFlooringComponent,
   ],
   imports: [
     BrowserModule,
