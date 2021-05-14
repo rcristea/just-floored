@@ -111,6 +111,7 @@ import { CorkFlooringComponent } from './components/pages/floors/about/cork-floo
 import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
 import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 import { TestimonialsComponent } from './components/pages/testimonials/testimonials.component';
+import { GoGreenComponent } from './components/pages/go-green/go-green.component';
 
 @NgModule({
   declarations: [
@@ -216,6 +217,7 @@ import { TestimonialsComponent } from './components/pages/testimonials/testimoni
     BambooFlooringComponent,
     VinylPlankFlooringComponent,
     TestimonialsComponent,
+    GoGreenComponent,
   ],
   imports: [
     BrowserModule,

@@ -37,6 +37,11 @@
     min-width: 350px;
 }
 
+.floated {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
 @media screen and (max-width: 1200px) {
     .mh-525 {
         max-height: 435px;

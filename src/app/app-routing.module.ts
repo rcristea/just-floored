@@ -20,6 +20,7 @@ import { SolidWoodFlooringComponent } from './components/pages/floors/about/soli
 import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
 import { GalleryComponent } from './components/pages/gallery/gallery.component';
+import { GoGreenComponent } from './components/pages/go-green/go-green.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
 import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
@@ -200,6 +201,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'testimonials', component: TestimonialsComponent },
+  { path: 'go-green', component: GoGreenComponent },
 ];
 
 @NgModule({
