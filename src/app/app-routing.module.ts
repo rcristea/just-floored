@@ -13,6 +13,7 @@ import { HickoryMojaveHir001Component } from './components/pages/engineered/floo
 import { HickoryOmakHir003Component } from './components/pages/engineered/floors/hickory-omak-hir003/hickory-omak-hir003.component';
 import { SantaBarbaraBeachComponent } from './components/pages/engineered/floors/santa-barbara-beach/santa-barbara-beach.component';
 import { FloorsComponent } from './components/pages/floors/floors.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { Gt102PatinaOakComponent } from './components/pages/laminate/floors/gt102-patina-oak/gt102-patina-oak.component';
 import { Gt105SnowOakComponent } from './components/pages/laminate/floors/gt105-snow-oak/gt105-snow-oak.component';
@@ -184,6 +185,7 @@ const routes: Routes = [
   { path: 'vinyl/wf910-harvest-walnut', component: Wf910HarvestWalnutComponent },
   { path: 'vinyl/wf904-seabrook-oak', component: Wf904SeabrookOakComponent },
   { path: 'services', component: ServicesComponent },
+  { path: 'gallery', component: GalleryComponent },
 ];
 
 @NgModule({
