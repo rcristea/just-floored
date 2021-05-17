@@ -113,6 +113,7 @@ import { VinylWf9Component } from './components/pages/vinyl/vinyl-wf9/vinyl-wf9.
 import { VinylWpcP1Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p1/vinyl-wpc-p1.component';
 import { VinylWpcP2Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p2/vinyl-wpc-p2.component';
 import { VinylWpcP3Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p3/vinyl-wpc-p3.component';
+import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/posts/dustless-sanding-wood-floors/dustless-sanding-wood-floors.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -228,6 +229,7 @@ const routes: Routes = [
   { path: 'blog/posts/new-trends-in-flooring', component: NewTrendsInFlooringComponent },
   { path: 'blog/posts/hardwood-floors-low-vocs-no-vocs', component: HardwoodFloorsLowVocsNoVocsComponent },
   { path: 'blog/posts/refinish-or-replace-wood-floors', component: FinishOrReplaceWoodFloorsComponent },
+  { path: 'blog/posts/dustless-sanding-wood-floors', component: DustlessSandingWoodFloorsComponent },
 ];
 
 @NgModule({
