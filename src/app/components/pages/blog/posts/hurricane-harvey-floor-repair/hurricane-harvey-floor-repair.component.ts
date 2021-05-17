@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-choosing-the-right-floor-finish',
-  templateUrl: './choosing-the-right-floor-finish.component.html',
-  styleUrls: ['./choosing-the-right-floor-finish.component.css']
+  selector: 'app-hurricane-harvey-floor-repair',
+  templateUrl: './hurricane-harvey-floor-repair.component.html',
+  styleUrls: ['./hurricane-harvey-floor-repair.component.css']
 })
-export class ChoosingTheRightFloorFinishComponent implements OnInit {
+export class HurricaneHarveyFloorRepairComponent implements OnInit {
 
   constructor() { }
 
