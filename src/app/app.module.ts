@@ -119,6 +119,7 @@ import { LuxuryVinylPlanksFlooringInstallationComponent } from './components/pag
 import { ChoosingTheRightFloorFinishComponent } from './components/pages/blog/posts/choosing-the-right-floor-finish/choosing-the-right-floor-finish.component';
 import { HurricaneHarveyFloorRepairComponent } from './components/pages/blog/posts/hurricane-harvey-floor-repair/hurricane-harvey-floor-repair.component';
 import { NewThickerEngineeredFlooringComponent } from './components/pages/blog/posts/new-thicker-engineered-flooring/new-thicker-engineered-flooring.component';
+import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/posts/hurricane-matthew-floor-repair/hurricane-matthew-floor-repair.component';
 
 @NgModule({
   declarations: [
@@ -232,6 +233,7 @@ import { NewThickerEngineeredFlooringComponent } from './components/pages/blog/p
     ChoosingTheRightFloorFinishComponent,
     HurricaneHarveyFloorRepairComponent,
     NewThickerEngineeredFlooringComponent,
+    HurricaneMatthewFloorRepairComponent,
   ],
   imports: [
     BrowserModule,

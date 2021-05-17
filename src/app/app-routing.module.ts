@@ -5,6 +5,7 @@ import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.compone
 import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
 import { ChoosingTheRightFloorFinishComponent } from './components/pages/blog/posts/choosing-the-right-floor-finish/choosing-the-right-floor-finish.component';
 import { HurricaneHarveyFloorRepairComponent } from './components/pages/blog/posts/hurricane-harvey-floor-repair/hurricane-harvey-floor-repair.component';
+import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/posts/hurricane-matthew-floor-repair/hurricane-matthew-floor-repair.component';
 import { LuxuryVinylPlanksFlooringInstallationComponent } from './components/pages/blog/posts/luxury-vinyl-planks-flooring-installation/luxury-vinyl-planks-flooring-installation.component';
 import { NewThickerEngineeredFlooringComponent } from './components/pages/blog/posts/new-thicker-engineered-flooring/new-thicker-engineered-flooring.component';
 import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vinyl-flooring/spc-vinyl-flooring.component';
@@ -216,6 +217,7 @@ const routes: Routes = [
   { path: 'blog/posts/choosing-the-right-floor-finish', component: ChoosingTheRightFloorFinishComponent },
   { path: 'blog/posts/hurricane-harvey-floor-repair', component: HurricaneHarveyFloorRepairComponent },
   { path: 'blog/posts/new-thicker-engineered-flooring', component: NewThickerEngineeredFlooringComponent },
+  { path: 'blog/posts/hurricane-matthew-floor-repair', component: HurricaneMatthewFloorRepairComponent },
 ];
 
 @NgModule({
