@@ -115,6 +115,7 @@ import { GoGreenComponent } from './components/pages/go-green/go-green.component
 import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.component';
 import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
 import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vinyl-flooring/spc-vinyl-flooring.component';
+import { LuxuryVinylPlanksFlooringInstallationComponent } from './components/pages/blog/posts/luxury-vinyl-planks-flooring-installation/luxury-vinyl-planks-flooring-installation.component';
 
 @NgModule({
   declarations: [
@@ -224,6 +225,7 @@ import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vin
     BlogP1Component,
     BlogP2Component,
     SpcVinylFlooringComponent,
+    LuxuryVinylPlanksFlooringInstallationComponent,
   ],
   imports: [
     BrowserModule,
