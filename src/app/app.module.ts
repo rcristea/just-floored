@@ -125,6 +125,7 @@ import { BlogBambooFlooringComponent } from './components/pages/blog/posts/blog-
 import { NewTrendsInFlooringComponent } from './components/pages/blog/posts/new-trends-in-flooring/new-trends-in-flooring.component';
 import { HardwoodFloorsLowVocsNoVocsComponent } from './components/pages/blog/posts/hardwood-floors-low-vocs-no-vocs/hardwood-floors-low-vocs-no-vocs.component';
 import { FinishOrReplaceWoodFloorsComponent } from './components/pages/blog/posts/refinish-or-replace-wood-floors/refinish-or-replace-wood-floors.component';
+import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/posts/dustless-sanding-wood-floors/dustless-sanding-wood-floors.component';
 
 @NgModule({
   declarations: [
@@ -244,6 +245,7 @@ import { FinishOrReplaceWoodFloorsComponent } from './components/pages/blog/post
     NewTrendsInFlooringComponent,
     HardwoodFloorsLowVocsNoVocsComponent,
     FinishOrReplaceWoodFloorsComponent,
+    DustlessSandingWoodFloorsComponent,
   ],
   imports: [
     BrowserModule,

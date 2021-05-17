@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-refinish-or-replace-wood-floors',
-  templateUrl: './refinish-or-replace-wood-floors.component.html',
-  styleUrls: ['./refinish-or-replace-wood-floors.component.css']
+  selector: 'app-dustless-sanding-wood-floors',
+  templateUrl: './dustless-sanding-wood-floors.component.html',
+  styleUrls: ['./dustless-sanding-wood-floors.component.css']
 })
-export class FinishOrReplaceWoodFloorsComponent implements OnInit {
+export class DustlessSandingWoodFloorsComponent implements OnInit {
 
   constructor() { }
 
