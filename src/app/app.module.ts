@@ -120,6 +120,7 @@ import { ChoosingTheRightFloorFinishComponent } from './components/pages/blog/po
 import { HurricaneHarveyFloorRepairComponent } from './components/pages/blog/posts/hurricane-harvey-floor-repair/hurricane-harvey-floor-repair.component';
 import { NewThickerEngineeredFlooringComponent } from './components/pages/blog/posts/new-thicker-engineered-flooring/new-thicker-engineered-flooring.component';
 import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/posts/hurricane-matthew-floor-repair/hurricane-matthew-floor-repair.component';
+import { BlogBambooFlooringComponent } from './components/pages/blog/posts/blog-bamboo-flooring/blog-bamboo-flooring.component';
 
 @NgModule({
   declarations: [
@@ -234,6 +235,7 @@ import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/po
     HurricaneHarveyFloorRepairComponent,
     NewThickerEngineeredFlooringComponent,
     HurricaneMatthewFloorRepairComponent,
+    BlogBambooFlooringComponent,
   ],
   imports: [
     BrowserModule,
