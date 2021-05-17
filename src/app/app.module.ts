@@ -126,6 +126,11 @@ import { NewTrendsInFlooringComponent } from './components/pages/blog/posts/new-
 import { HardwoodFloorsLowVocsNoVocsComponent } from './components/pages/blog/posts/hardwood-floors-low-vocs-no-vocs/hardwood-floors-low-vocs-no-vocs.component';
 import { FinishOrReplaceWoodFloorsComponent } from './components/pages/blog/posts/refinish-or-replace-wood-floors/refinish-or-replace-wood-floors.component';
 import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/posts/dustless-sanding-wood-floors/dustless-sanding-wood-floors.component';
+import { BambooFlooringCategoryComponent } from './components/pages/blog/categories/bamboo-flooring-category/bamboo-flooring-category.component';
+import { CorkFlooringCategoryComponent } from './components/pages/blog/categories/cork-flooring-category/cork-flooring-category.component';
+import { EngineeredWoodCategoryComponent } from './components/pages/blog/categories/engineered-wood-category/engineered-wood-category.component';
+import { HardwoodFlooringCategoryComponent } from './components/pages/blog/categories/hardwood-flooring-category/hardwood-flooring-category.component';
+import { LaminateFlooringCategoryComponent } from './components/pages/blog/categories/laminate-flooring-category/laminate-flooring-category.component';
 
 @NgModule({
   declarations: [
@@ -246,6 +251,11 @@ import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/post
     HardwoodFloorsLowVocsNoVocsComponent,
     FinishOrReplaceWoodFloorsComponent,
     DustlessSandingWoodFloorsComponent,
+    BambooFlooringCategoryComponent,
+    CorkFlooringCategoryComponent,
+    EngineeredWoodCategoryComponent,
+    HardwoodFlooringCategoryComponent,
+    LaminateFlooringCategoryComponent,
   ],
   imports: [
     BrowserModule,

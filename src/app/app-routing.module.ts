@@ -114,6 +114,11 @@ import { VinylWpcP1Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wp
 import { VinylWpcP2Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p2/vinyl-wpc-p2.component';
 import { VinylWpcP3Component } from './components/pages/vinyl/vinyl-wpc/vinyl-wpc-p3/vinyl-wpc-p3.component';
 import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/posts/dustless-sanding-wood-floors/dustless-sanding-wood-floors.component';
+import { BambooFlooringCategoryComponent } from './components/pages/blog/categories/bamboo-flooring-category/bamboo-flooring-category.component';
+import { CorkFlooringCategoryComponent } from './components/pages/blog/categories/cork-flooring-category/cork-flooring-category.component';
+import { EngineeredWoodCategoryComponent } from './components/pages/blog/categories/engineered-wood-category/engineered-wood-category.component';
+import { HardwoodFlooringCategoryComponent } from './components/pages/blog/categories/hardwood-flooring-category/hardwood-flooring-category.component';
+import { LaminateFlooringCategoryComponent } from './components/pages/blog/categories/laminate-flooring-category/laminate-flooring-category.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -230,6 +235,11 @@ const routes: Routes = [
   { path: 'blog/posts/hardwood-floors-low-vocs-no-vocs', component: HardwoodFloorsLowVocsNoVocsComponent },
   { path: 'blog/posts/refinish-or-replace-wood-floors', component: FinishOrReplaceWoodFloorsComponent },
   { path: 'blog/posts/dustless-sanding-wood-floors', component: DustlessSandingWoodFloorsComponent },
+  { path: 'blog/categories/bamboo-flooring', component: BambooFlooringCategoryComponent },
+  { path: 'blog/categories/cork-flooring', component: CorkFlooringCategoryComponent },
+  { path: 'blog/categories/engineered-wood-flooring', component: EngineeredWoodCategoryComponent },
+  { path: 'blog/categories/hardwood-flooring', component: HardwoodFlooringCategoryComponent },
+  { path: 'blog/categories/laminate-flooring', component: LaminateFlooringCategoryComponent },
 ];
 
 @NgModule({
