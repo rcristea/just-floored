@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogP1Component implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    if (!localStorage.getItem('blog_view_1')) {
+      localStorage.setItem('blog_view_1', 'reload')
+      location.reload();
+    }
   }
-
+  
+  ngOnDestroy(): void {
+    localStorage.removeItem('blog_view_1')
+  }
 }
