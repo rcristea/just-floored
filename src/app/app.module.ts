@@ -123,6 +123,7 @@ import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/po
 import { HandscrapedHardwoodFlooringComponent } from './components/pages/blog/posts/handscraped-hardwood-flooring/handscraped-hardwood-flooring.component';
 import { BlogBambooFlooringComponent } from './components/pages/blog/posts/blog-bamboo-flooring/blog-bamboo-flooring.component';
 import { NewTrendsInFlooringComponent } from './components/pages/blog/posts/new-trends-in-flooring/new-trends-in-flooring.component';
+import { HardwoodFloorsLowVocsNoVocsComponent } from './components/pages/blog/posts/hardwood-floors-low-vocs-no-vocs/hardwood-floors-low-vocs-no-vocs.component';
 
 @NgModule({
   declarations: [
@@ -240,6 +241,7 @@ import { NewTrendsInFlooringComponent } from './components/pages/blog/posts/new-
     HandscrapedHardwoodFlooringComponent,
     BlogBambooFlooringComponent,
     NewTrendsInFlooringComponent,
+    HardwoodFloorsLowVocsNoVocsComponent,
   ],
   imports: [
     BrowserModule,

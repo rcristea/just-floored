@@ -6,6 +6,7 @@ import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.compone
 import { BlogBambooFlooringComponent } from './components/pages/blog/posts/blog-bamboo-flooring/blog-bamboo-flooring.component';
 import { ChoosingTheRightFloorFinishComponent } from './components/pages/blog/posts/choosing-the-right-floor-finish/choosing-the-right-floor-finish.component';
 import { HandscrapedHardwoodFlooringComponent } from './components/pages/blog/posts/handscraped-hardwood-flooring/handscraped-hardwood-flooring.component';
+import { HardwoodFloorsLowVocsNoVocsComponent } from './components/pages/blog/posts/hardwood-floors-low-vocs-no-vocs/hardwood-floors-low-vocs-no-vocs.component';
 import { HurricaneHarveyFloorRepairComponent } from './components/pages/blog/posts/hurricane-harvey-floor-repair/hurricane-harvey-floor-repair.component';
 import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/posts/hurricane-matthew-floor-repair/hurricane-matthew-floor-repair.component';
 import { LuxuryVinylPlanksFlooringInstallationComponent } from './components/pages/blog/posts/luxury-vinyl-planks-flooring-installation/luxury-vinyl-planks-flooring-installation.component';
@@ -224,6 +225,7 @@ const routes: Routes = [
   { path: 'blog/posts/bamboo-flooring', component: BlogBambooFlooringComponent },
   { path: 'blog/posts/handscraped-hardwood-flooring', component: HandscrapedHardwoodFlooringComponent },
   { path: 'blog/posts/new-trends-in-flooring', component: NewTrendsInFlooringComponent },
+  { path: 'blog/posts/hardwood-floors-low-vocs-no-vocs', component: HardwoodFloorsLowVocsNoVocsComponent },
 ];
 
 @NgModule({
