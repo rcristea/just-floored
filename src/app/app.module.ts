@@ -114,6 +114,7 @@ import { TestimonialsComponent } from './components/pages/testimonials/testimoni
 import { GoGreenComponent } from './components/pages/go-green/go-green.component';
 import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.component';
 import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
+import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vinyl-flooring/spc-vinyl-flooring.component';
 
 @NgModule({
   declarations: [
@@ -222,6 +223,7 @@ import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.compone
     GoGreenComponent,
     BlogP1Component,
     BlogP2Component,
+    SpcVinylFlooringComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.component';
 import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
+import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vinyl-flooring/spc-vinyl-flooring.component';
 import { EngineeredAcaciaComponent } from './components/pages/engineered/engineered-acacia/engineered-acacia.component';
 import { EngineeredBirchComponent } from './components/pages/engineered/engineered-birch/engineered-birch.component';
 import { EngineeredHickoryComponent } from './components/pages/engineered/engineered-hickory/engineered-hickory.component';
@@ -206,6 +207,7 @@ const routes: Routes = [
   { path: 'go-green', component: GoGreenComponent },
   { path: 'blog', component: BlogP1Component},
   { path: 'blog/page/2', component: BlogP2Component },
+  { path: 'blog/posts/spc-vinyl-flooring', component: SpcVinylFlooringComponent },
 ];
 
 @NgModule({
