@@ -110,6 +110,30 @@ import { LaminateFlooringComponent } from './components/pages/floors/about/lamin
 import { CorkFlooringComponent } from './components/pages/floors/about/cork-flooring/cork-flooring.component';
 import { BambooFlooringComponent } from './components/pages/floors/about/bamboo-flooring/bamboo-flooring.component';
 import { VinylPlankFlooringComponent } from './components/pages/floors/about/vinyl-plank-flooring/vinyl-plank-flooring.component';
+import { TestimonialsComponent } from './components/pages/testimonials/testimonials.component';
+import { GoGreenComponent } from './components/pages/go-green/go-green.component';
+import { BlogP1Component } from './components/pages/blog/blog-p1/blog-p1.component';
+import { BlogP2Component } from './components/pages/blog/blog-p2/blog-p2.component';
+import { SpcVinylFlooringComponent } from './components/pages/blog/posts/spc-vinyl-flooring/spc-vinyl-flooring.component';
+import { LuxuryVinylPlanksFlooringInstallationComponent } from './components/pages/blog/posts/luxury-vinyl-planks-flooring-installation/luxury-vinyl-planks-flooring-installation.component';
+import { ChoosingTheRightFloorFinishComponent } from './components/pages/blog/posts/choosing-the-right-floor-finish/choosing-the-right-floor-finish.component';
+import { HurricaneHarveyFloorRepairComponent } from './components/pages/blog/posts/hurricane-harvey-floor-repair/hurricane-harvey-floor-repair.component';
+import { NewThickerEngineeredFlooringComponent } from './components/pages/blog/posts/new-thicker-engineered-flooring/new-thicker-engineered-flooring.component';
+import { HurricaneMatthewFloorRepairComponent } from './components/pages/blog/posts/hurricane-matthew-floor-repair/hurricane-matthew-floor-repair.component';
+import { HandscrapedHardwoodFlooringComponent } from './components/pages/blog/posts/handscraped-hardwood-flooring/handscraped-hardwood-flooring.component';
+import { BlogBambooFlooringComponent } from './components/pages/blog/posts/blog-bamboo-flooring/blog-bamboo-flooring.component';
+import { NewTrendsInFlooringComponent } from './components/pages/blog/posts/new-trends-in-flooring/new-trends-in-flooring.component';
+import { HardwoodFloorsLowVocsNoVocsComponent } from './components/pages/blog/posts/hardwood-floors-low-vocs-no-vocs/hardwood-floors-low-vocs-no-vocs.component';
+import { FinishOrReplaceWoodFloorsComponent } from './components/pages/blog/posts/refinish-or-replace-wood-floors/refinish-or-replace-wood-floors.component';
+import { DustlessSandingWoodFloorsComponent } from './components/pages/blog/posts/dustless-sanding-wood-floors/dustless-sanding-wood-floors.component';
+import { BambooFlooringCategoryComponent } from './components/pages/blog/categories/bamboo-flooring-category/bamboo-flooring-category.component';
+import { CorkFlooringCategoryComponent } from './components/pages/blog/categories/cork-flooring-category/cork-flooring-category.component';
+import { EngineeredWoodCategoryComponent } from './components/pages/blog/categories/engineered-wood-category/engineered-wood-category.component';
+import { HardwoodFlooringCategoryComponent } from './components/pages/blog/categories/hardwood-flooring-category/hardwood-flooring-category.component';
+import { LaminateFlooringCategoryComponent } from './components/pages/blog/categories/laminate-flooring-category/laminate-flooring-category.component';
+import { RefinishingFloorsCategoryComponent } from './components/pages/blog/categories/refinishing-floors-category/refinishing-floors-category.component';
+import { StoneTitleCategoryComponent } from './components/pages/blog/categories/stone-title-category/stone-title-category.component';
+import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 
 @NgModule({
   declarations: [
@@ -214,6 +238,30 @@ import { VinylPlankFlooringComponent } from './components/pages/floors/about/vin
     CorkFlooringComponent,
     BambooFlooringComponent,
     VinylPlankFlooringComponent,
+    TestimonialsComponent,
+    GoGreenComponent,
+    BlogP1Component,
+    BlogP2Component,
+    SpcVinylFlooringComponent,
+    LuxuryVinylPlanksFlooringInstallationComponent,
+    ChoosingTheRightFloorFinishComponent,
+    HurricaneHarveyFloorRepairComponent,
+    NewThickerEngineeredFlooringComponent,
+    HurricaneMatthewFloorRepairComponent,
+    HandscrapedHardwoodFlooringComponent,
+    BlogBambooFlooringComponent,
+    NewTrendsInFlooringComponent,
+    HardwoodFloorsLowVocsNoVocsComponent,
+    FinishOrReplaceWoodFloorsComponent,
+    DustlessSandingWoodFloorsComponent,
+    BambooFlooringCategoryComponent,
+    CorkFlooringCategoryComponent,
+    EngineeredWoodCategoryComponent,
+    HardwoodFlooringCategoryComponent,
+    LaminateFlooringCategoryComponent,
+    RefinishingFloorsCategoryComponent,
+    StoneTitleCategoryComponent,
+    VinylPlankCategoryComponent,
   ],
   imports: [
     BrowserModule,
