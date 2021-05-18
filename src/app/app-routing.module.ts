@@ -119,6 +119,9 @@ import { CorkFlooringCategoryComponent } from './components/pages/blog/categorie
 import { EngineeredWoodCategoryComponent } from './components/pages/blog/categories/engineered-wood-category/engineered-wood-category.component';
 import { HardwoodFlooringCategoryComponent } from './components/pages/blog/categories/hardwood-flooring-category/hardwood-flooring-category.component';
 import { LaminateFlooringCategoryComponent } from './components/pages/blog/categories/laminate-flooring-category/laminate-flooring-category.component';
+import { RefinishingFloorsCategoryComponent } from './components/pages/blog/categories/refinishing-floors-category/refinishing-floors-category.component';
+import { StoneTitleCategoryComponent } from './components/pages/blog/categories/stone-title-category/stone-title-category.component';
+import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -240,6 +243,9 @@ const routes: Routes = [
   { path: 'blog/categories/engineered-wood-flooring', component: EngineeredWoodCategoryComponent },
   { path: 'blog/categories/hardwood-flooring', component: HardwoodFlooringCategoryComponent },
   { path: 'blog/categories/laminate-flooring', component: LaminateFlooringCategoryComponent },
+  { path: 'blog/categories/refinishing-floors', component: RefinishingFloorsCategoryComponent },
+  { path: 'blog/categories/stone-title', component: StoneTitleCategoryComponent },
+  { path: 'blog/categories/vinyl-plank', component: VinylPlankCategoryComponent },
 ];
 
 @NgModule({

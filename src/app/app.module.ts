@@ -131,6 +131,9 @@ import { CorkFlooringCategoryComponent } from './components/pages/blog/categorie
 import { EngineeredWoodCategoryComponent } from './components/pages/blog/categories/engineered-wood-category/engineered-wood-category.component';
 import { HardwoodFlooringCategoryComponent } from './components/pages/blog/categories/hardwood-flooring-category/hardwood-flooring-category.component';
 import { LaminateFlooringCategoryComponent } from './components/pages/blog/categories/laminate-flooring-category/laminate-flooring-category.component';
+import { RefinishingFloorsCategoryComponent } from './components/pages/blog/categories/refinishing-floors-category/refinishing-floors-category.component';
+import { StoneTitleCategoryComponent } from './components/pages/blog/categories/stone-title-category/stone-title-category.component';
+import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 
 @NgModule({
   declarations: [
@@ -256,6 +259,9 @@ import { LaminateFlooringCategoryComponent } from './components/pages/blog/categ
     EngineeredWoodCategoryComponent,
     HardwoodFlooringCategoryComponent,
     LaminateFlooringCategoryComponent,
+    RefinishingFloorsCategoryComponent,
+    StoneTitleCategoryComponent,
+    VinylPlankCategoryComponent,
   ],
   imports: [
     BrowserModule,

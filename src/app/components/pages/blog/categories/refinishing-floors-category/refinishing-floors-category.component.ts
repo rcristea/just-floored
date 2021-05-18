@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-engineered-wood-category',
-  templateUrl: './engineered-wood-category.component.html',
-  styleUrls: ['./engineered-wood-category.component.css']
+  selector: 'app-refinishing-floors-category',
+  templateUrl: './refinishing-floors-category.component.html',
+  styleUrls: ['./refinishing-floors-category.component.css']
 })
-export class EngineeredWoodCategoryComponent implements OnInit {
+export class RefinishingFloorsCategoryComponent implements OnInit {
 
   constructor() { }
 
