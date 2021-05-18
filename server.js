@@ -7,6 +7,9 @@ const bodyParser = require('body-parser');
 // Get our API routes
 const api = require('./server/routes/api');
 
+// Get environment variables
+const env = require('dotenv').config();
+
 const app = express();
 
 // Parsers for POST data
@@ -27,7 +30,7 @@ app.get('*', (req, res) => {
 /**
  * Get port from environment and store in Express.
  */
-const port = process.env.PORT || '3000';
+const port = process.env.APP_PORT;
 app.set('port', port);
 
 /**
