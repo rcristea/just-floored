@@ -139,6 +139,7 @@ import { StoneTitleCategoryComponent } from './components/pages/blog/categories/
 import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 import { SendEmailService } from './services/send-email.service';
 import { ContactUsComponent } from './components/snippets/contact-us/contact-us.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -268,6 +269,7 @@ import { ContactUsComponent } from './components/snippets/contact-us/contact-us.
     StoneTitleCategoryComponent,
     VinylPlankCategoryComponent,
     ContactUsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
