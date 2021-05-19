@@ -55,7 +55,6 @@ app.post('/contact/sendmail', (req, res) => {
 });
 
 async function sendMail(data, callback) {
-  console.log(process.env.MAIL_USERNAME + " " + process.env.MAIL_PASSWORD);
   let transporter = nodemailer.createTransport({
     host: process.env.MAIL_HOST,
     port: process.env.MAIL_PORT,
