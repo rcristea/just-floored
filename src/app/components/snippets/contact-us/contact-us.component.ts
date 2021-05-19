@@ -26,15 +26,17 @@ export class ContactUsComponent {
   }
 
   onSubmit() {
-    this.sendEmail.to('http://localhost:3000/contact/sendmail', this.name.value, this.email.value, this.phone.value, this.message.value).subscribe(
+    let formData = {
+      name: this.name.value,
+      email: this.email.value,
+      phone: this.phone.value,
+      message: this.message.value,
+    }
+
+    this.sendEmail.to('http://localhost:3000/contact/sendmail', formData).subscribe(
       data => {
         let res: any = data;
-        console.log(`${this.name.value} succesfully sent a message.`);
-        /*
-              Was about to start the node part of sending an email. Angular stuff should be done... But more might need to go here.
-
-
-        */
+        console.log(`${formData.name} succesfully sent a message.`);
       }
     )
   }

@@ -16,14 +16,7 @@ export class SendEmailService {
     return this.http.post(url, {name: 'Test'})
   }
 
-  to(url: string, name: string, email: string, phone: string, message: string) {
-    let data = {
-      'name': name,
-      'email': email,
-      'phone': phone,
-      'message': message,
-    }
-
+  to(url: string, data: any) {
     return this.http.post(url, data);
   }
 }
