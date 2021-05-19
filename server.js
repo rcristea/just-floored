@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 
 // Get our API routes
 const api = require('./server/routes/api');
@@ -41,4 +42,42 @@ const server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(port, () => console.log(`API running on localhost:${port}`));
+server.listen(port, () => console.log(`Server running on localhost:${port}`));
+
+/**
+ * If post request comes to /contact/sendmail, sent an email.
+ */
+app.post('/contact/sendmail', (req, res) => {
+  let data = req.body;
+  sendMail(data, info => {
+    res.send(info);
+  });
+});
+
+async function sendMail(data, callback) {
+  console.log(process.env.MAIL_USERNAME + " " + process.env.MAIL_PASSWORD);
+  let transporter = nodemailer.createTransport({
+    host: process.env.MAIL_HOST,
+    port: process.env.MAIL_PORT,
+    secure: false,
+    auth: {
+      user: process.env.MAIL_USERNAME,
+      pass: process.env.MAIL_PASSWORD,
+    }
+  });
+
+  let mailOptions = {
+    from: process.env.MAIL_FROM_ADDRESS,
+    to: process.env.MAIL_FROM_ADDRESS,
+    subject: `${data.name} sent you a message from JustFloored.com`,
+    html: `<h3>Name: ${data.name}</h3>
+      <h3>Email: ${data.email}</h3>
+      <h3>Phone: ${data.phone}</h3>
+      <h3>Message:</h3>
+      <p>${data.message}</p>
+      `
+  }
+
+  let info = await transporter.sendMail(mailOptions);
+  callback(info);
+}
