@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
@@ -273,6 +274,8 @@ import { ContactUsComponent } from './components/snippets/contact-us/contact-us.
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    RecaptchaModule,
+    RecaptchaFormsModule,
   ],
   providers: [
     SendEmailService,

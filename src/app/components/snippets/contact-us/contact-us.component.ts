@@ -13,6 +13,7 @@ export class ContactUsComponent {
     email: [null, [Validators.required, Validators.email]],
     phone: null,
     message: [null, Validators.required],
+    captcha: [null, Validators.required],
   });
 
   messageSent: boolean = false;
