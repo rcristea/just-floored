@@ -7,6 +7,9 @@
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
@@ -134,6 +137,8 @@ import { LaminateFlooringCategoryComponent } from './components/pages/blog/categ
 import { RefinishingFloorsCategoryComponent } from './components/pages/blog/categories/refinishing-floors-category/refinishing-floors-category.component';
 import { StoneTitleCategoryComponent } from './components/pages/blog/categories/stone-title-category/stone-title-category.component';
 import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
+import { SendEmailService } from './services/send-email.service';
+import { ContactUsComponent } from './components/snippets/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -262,12 +267,19 @@ import { VinylPlankCategoryComponent } from './components/pages/blog/categories/
     RefinishingFloorsCategoryComponent,
     StoneTitleCategoryComponent,
     VinylPlankCategoryComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    RecaptchaModule,
+    RecaptchaFormsModule,
   ],
-  providers: [],
+  providers: [
+    SendEmailService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
