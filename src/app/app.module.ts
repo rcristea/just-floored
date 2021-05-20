@@ -140,8 +140,8 @@ import { VinylPlankCategoryComponent } from './components/pages/blog/categories/
 import { SendEmailService } from './services/send-email.service';
 import { ContactUsComponent } from './components/snippets/contact-us/contact-us.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { FreeQuoteComponent } from './components/pages/free-quote/free-quote/free-quote.component';
 import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
+import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 
 @NgModule({
   declarations: [
@@ -272,8 +272,8 @@ import { MultiStepFormComponent } from './components/snippets/multi-step-form/mu
     VinylPlankCategoryComponent,
     ContactUsComponent,
     ContactComponent,
-    FreeQuoteComponent,
     MultiStepFormComponent,
+    FreeQuoteComponent,
   ],
   imports: [
     BrowserModule,

@@ -72,6 +72,7 @@
   <script src="assets/js/unify/components/hs.onscroll-animation.js"></script>
   <script src="assets/js/unify/components/hs.rating.js"></script>
   <script src="assets/js/unify/components/hs.sticky-block.js"></script>
+  <script src="assets/js/unify/components/hs.datepicker.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -92,6 +93,9 @@
       $.HSCore.components.HSRating.init($('.js-rating'), {
         spacing: 4
       });
+
+      // initialization of forms
+      $.HSCore.components.HSDatepicker.init('#datepickerDefault, #datepickerInline, #datepickerInlineFrom, #datepickerFrom');
     });
 
     $(window).on('load', function () {

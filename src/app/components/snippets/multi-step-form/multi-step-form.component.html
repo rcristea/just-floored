@@ -1,1 +1,48 @@
-<p>multi-step-form works!</p>
+<div class="progress rounded-0 g-mb-20" *ngIf="step === 1">
+  <div class="progress-bar u-progress-bar--xs" role="progressbar" style="width: 0%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress rounded-0 g-mb-20" *ngIf="step === 2">
+  <div class="progress-bar u-progress-bar--xs" role="progressbar" style="width: 25%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress rounded-0 g-mb-20" *ngIf="step === 3">
+  <div class="progress-bar u-progress-bar--xs" role="progressbar" style="width: 50%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress rounded-0 g-mb-20" *ngIf="step === 4">
+  <div class="progress-bar u-progress-bar--xs" role="progressbar" style="width: 100%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<div id="step1" *ngIf="step === 1">
+  <form (submit)="step1()" [formGroup]="multiStepForm" class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30">
+    <h4 class="h6 g-font-weight-700 g-mb-20">Property Type:</h4>
+    <div class="g-mb-15">
+      <label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25">
+        <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="radio" name="propertyType" formControlName="propertyType" value="home" checked="">
+        <div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+          <i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+        </div>
+        Home
+      </label>
+  
+      <label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25">
+        <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="radio" name="propertyType" formControlName="propertyType" value="business">
+        <div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+          <i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+        </div>
+        Business
+      </label>
+    </div>
+  </form>
+</div>
+<div id="step2" *ngIf="step === 2">
+  
+</div>
+<div id="step3" *ngIf="step === 3">
+  
+</div>
+<div id="step4" *ngIf="step === 4">
+  
+</div>
+
+{{ multiStepForm.value | json }}
+{{ multiStepForm.valid }}
+
