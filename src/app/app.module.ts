@@ -140,11 +140,8 @@ import { VinylPlankCategoryComponent } from './components/pages/blog/categories/
 import { SendEmailService } from './services/send-email.service';
 import { ContactUsComponent } from './components/snippets/contact-us/contact-us.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { FreeQuoteFormComponent } from './components/pages/free-quote/free-quote-form/free-quote-form.component';
-import { FreeQuoteFormDayTimeComponent } from './components/pages/free-quote/free-quote-form-day-time/free-quote-form-day-time.component';
-import { FreeQuoteFormInterestsComponent } from './components/pages/free-quote/free-quote-form-interests/free-quote-form-interests.component';
-import { FreeQuoteFormContactsComponent } from './components/pages/free-quote/free-quote-form-contacts/free-quote-form-contacts.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote/free-quote.component';
+import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
 
 @NgModule({
   declarations: [
@@ -275,11 +272,8 @@ import { FreeQuoteComponent } from './components/pages/free-quote/free-quote/fre
     VinylPlankCategoryComponent,
     ContactUsComponent,
     ContactComponent,
-    FreeQuoteFormComponent,
-    FreeQuoteFormDayTimeComponent,
-    FreeQuoteFormInterestsComponent,
-    FreeQuoteFormContactsComponent,
     FreeQuoteComponent,
+    MultiStepFormComponent,
   ],
   imports: [
     BrowserModule,

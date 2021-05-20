@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FreeQuoteFormComponent } from './free-quote-form.component';
+import { MultiStepFormComponent } from './multi-step-form.component';
 
-describe('FreeQuoteFormComponent', () => {
-  let component: FreeQuoteFormComponent;
-  let fixture: ComponentFixture<FreeQuoteFormComponent>;
+describe('MultiStepFormComponent', () => {
+  let component: MultiStepFormComponent;
+  let fixture: ComponentFixture<MultiStepFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FreeQuoteFormComponent ]
+      declarations: [ MultiStepFormComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FreeQuoteFormComponent);
+    fixture = TestBed.createComponent(MultiStepFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
