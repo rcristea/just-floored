@@ -10,6 +10,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
+import { DatepickerModule } from 'ng2-datepicker';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
@@ -282,6 +283,7 @@ import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.com
     ReactiveFormsModule,
     RecaptchaModule,
     RecaptchaFormsModule,
+    DatepickerModule,
   ],
   providers: [
     SendEmailService,
