@@ -125,6 +125,7 @@ import { VinylPlankCategoryComponent } from './components/pages/blog/categories/
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
+import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -252,6 +253,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
   { path: 'service-area/alpharetta', component: AlpharettaComponent },
+  { path: 'service-area/atlanta', component: AtlantaComponent },
 ];
 
 @NgModule({

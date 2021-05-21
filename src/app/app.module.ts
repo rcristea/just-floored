@@ -144,6 +144,8 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
+import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
+import { ServiceAreasParagraphComponent } from './components/snippets/service-areas-paragraph/service-areas-paragraph.component';
 
 @NgModule({
   declarations: [
@@ -277,6 +279,8 @@ import { AlpharettaComponent } from './components/pages/service-areas/alpharetta
     MultiStepFormComponent,
     FreeQuoteComponent,
     AlpharettaComponent,
+    AtlantaComponent,
+    ServiceAreasParagraphComponent,
   ],
   imports: [
     BrowserModule,
