@@ -143,6 +143,7 @@ import { ContactUsComponent } from './components/snippets/contact-us/contact-us.
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
+import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
 
 @NgModule({
   declarations: [
@@ -275,6 +276,7 @@ import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.com
     ContactComponent,
     MultiStepFormComponent,
     FreeQuoteComponent,
+    AlpharettaComponent,
   ],
   imports: [
     BrowserModule,
