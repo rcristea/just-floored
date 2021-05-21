@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Validators, FormGroup, FormBuilder, FormControl, ValidatorFn, ValidationErrors } from '@angular/forms';
+import { Validators, FormGroup, FormBuilder } from '@angular/forms';
 import { DatepickerOptions } from 'ng2-datepicker';
 import { getYear } from 'date-fns';
+import { SendEmailService } from '../../../services/send-email.service';
 
 @Component({
   selector: 'app-multi-step-form',
@@ -11,12 +12,14 @@ import { getYear } from 'date-fns';
 export class MultiStepFormComponent implements OnInit {
   formOne: FormGroup;
   formTwo: FormGroup;
+  formThree: FormGroup;
 
-  step: number = 1; 
+  step: number = 1;
+  date: Date = new Date();
   datepickerOptions: DatepickerOptions = {
-    minYear: getYear(new Date()),
-    maxYear: getYear(new Date()) + 5,
-    maxDate: new Date(),
+    minYear: getYear(this.date),
+    maxYear: getYear(this.date) + 5,
+    maxDate: this.date,
     placeholder: '',
     format: 'LLLL do yyyy',
     formatTitle: 'LLLL yyyy',
@@ -29,8 +32,17 @@ export class MultiStepFormComponent implements OnInit {
     propertyType: null,
     date: null,
     time: null,
-    productOfInterest: null,
-    roomsOfInterest: null,
+    productsOfInterest: null,
+    roomsOfInterest: ["", ""], // Make the type string[] so we can assign the checkbox kets to this
+    fullName: null,
+    email: null,
+    phone: null,
+    street: null,
+    city: null,
+    state: null,
+    zip: null,
+    buildingType: null,
+    ownOrRent: null,
   }
 
   productsOfInterestOther = null;
@@ -51,9 +63,31 @@ export class MultiStepFormComponent implements OnInit {
       productsOfInterest: [null, Validators.required],
       productsOfInterestOther: null,
       roomsOfInterestGroup: this.formBuilder.group({
-        basementCheckbox: null,
-        bathroomCheckbox: null,
+        basementCheckbox: false,
+        bathroomCheckbox: false,
+        bedroomCheckbox: false,
+        diningRoomCheckbox: false,
+        familyRoomCheckbox: false,
+        livingRoomCheckbox: false,
+        kitchenCheckbox: false,
+        officeCheckbox: false,
+        patioCheckbox: false,
+        hallwayCheckbox: false,
+        otherCheckbox: false,
       }, { validators: this.requireAtLeastOneValidator }),
+    });
+
+    this.formThree = this.formBuilder.group({
+      fullName: [null, Validators.required],
+      email: [null, [Validators.email, Validators.required]],
+      phone: [null, Validators.required],
+      street: [null, Validators.required],
+      city: [null, Validators.required],
+      state: [null, Validators.required],
+      zip: [null, [Validators.required]],
+      buildingType: [null, Validators.required],
+      ownOrRent: [null, Validators.required],
+      captcha: [null, Validators.required],
     });
   }
 
@@ -85,14 +119,47 @@ export class MultiStepFormComponent implements OnInit {
   }
 
   step2() {
+    if (this.formTwo.valid) {
+      this.step = 3;
+      this.multiStepForm.productsOfInterest = this.formTwo.controls.productsOfInterest.value;
 
+      let roomsGroup: FormGroup;
+      roomsGroup = <FormGroup> this.formTwo.get('roomsOfInterestGroup');
+      let roomsSelected: string[] = [];
+      if (roomsGroup != null) {
+        Object.keys(roomsGroup.controls).forEach(key => {
+          const control = roomsGroup.controls[key];
+
+          if (control.value) {
+            roomsSelected.push(key);
+          }
+        });
+      }
+
+      this.multiStepForm.roomsOfInterest = roomsSelected;
+    }
   }
 
   step3() {
+    if (this.formThree.valid) {
+      this.step = 4;
+      this.multiStepForm.fullName = this.formThree.controls.fullName.value;
+      this.multiStepForm.email = this.formThree.controls.email.value;
+      this.multiStepForm.phone = this.formThree.controls.phone.value;
+      this.multiStepForm.street = this.formThree.controls.street.value;
+      this.multiStepForm.city = this.formThree.controls.city.value;
+      this.multiStepForm.state = this.formThree.controls.state.value;
+      this.multiStepForm.zip = this.formThree.controls.zip.value;
+      this.multiStepForm.buildingType = this.formThree.controls.buildingType.value;
+      this.multiStepForm.ownOrRent = this.formThree.controls.ownOrRent.value;
+    }
 
+    this.formOne.reset();
+    this.formTwo.reset();
+    this.formThree.reset();
   }
 
-  step4() {
-
+  back() {
+     this.step--;
   }
 }
