@@ -154,6 +154,12 @@ import { ConcordeComponent } from './components/pages/service-areas/concorde/con
 import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
 import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
 import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
+import { DuluthComponent } from './components/pages/service-areas/duluth/duluth.component';
+import { DunwoodyComponent } from './components/pages/service-areas/dunwoody/dunwoody.component';
+import { FloweryBranchComponent } from './components/pages/service-areas/flowery-branch/flowery-branch.component';
+import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
+import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
+import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
 
 @NgModule({
   declarations: [
@@ -297,6 +303,12 @@ import { DecaturComponent } from './components/pages/service-areas/decatur/decat
     CummingComponent,
     DaculaComponent,
     DecaturComponent,
+    DuluthComponent,
+    DunwoodyComponent,
+    FloweryBranchComponent,
+    FortMillComponent,
+    GainesvilleComponent,
+    GalvestonComponent,
   ],
   imports: [
     BrowserModule,

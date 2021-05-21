@@ -134,6 +134,12 @@ import { ConcordeComponent } from './components/pages/service-areas/concorde/con
 import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
 import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
 import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
+import { DuluthComponent } from './components/pages/service-areas/duluth/duluth.component';
+import { DunwoodyComponent } from './components/pages/service-areas/dunwoody/dunwoody.component';
+import { FloweryBranchComponent } from './components/pages/service-areas/flowery-branch/flowery-branch.component';
+import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
+import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
+import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -270,6 +276,12 @@ const routes: Routes = [
   { path: 'service-area/cumming-floor-installation', component: CummingComponent },
   { path: 'service-area/dacula-floor-installation', component: DaculaComponent },
   { path: 'service-area/decatur-floor-installer', component: DecaturComponent },
+  { path: 'service-area/duluth-floor-installation', component: DuluthComponent },
+  { path: 'service-area/dunwoody-floor-installation-service', component: DunwoodyComponent },
+  { path: 'service-area/flowery-branch-floor-installer', component: FloweryBranchComponent },
+  { path: 'service-area/fort-mill-floor-installation', component: FortMillComponent },
+  { path: 'service-area/gainesville-wood-floor-installation', component: GainesvilleComponent },
+  { path: 'service-area/woodlands-hardwood-floor-installation', component: GalvestonComponent },
 ];
 
 @NgModule({
