@@ -10,25 +10,25 @@
 <div class="progress rounded-0 g-mb-20" *ngIf="step === 4">
   <div class="progress-bar u-progress-bar--xs" role="progressbar" style="width: 100%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<div class="row text-center text-uppercase">
-  <div class="col-lg-3 col-sm-6 g-mb-50">
-    <h4 class="h5 g-color-gray-dark-v4" *ngIf="step !== 1">Start</h4>
-    <h4 class="h5 g-color-primary" *ngIf="step === 1">Start</h4>
+<div class="row text-center text-uppercase step-indicator">
+  <div class="col g-mb-50">
+    <h4 class="h6 g-color-gray-dark-v4" *ngIf="step !== 1">Start</h4>
+    <h4 class="h6 g-color-primary" *ngIf="step === 1">Start</h4>
   </div>
 
-  <div class="col-lg-3 col-sm-6 g-mb-50">
-    <h4 class="h5 g-color-gray-dark-v4" *ngIf="step !== 2">Interests</h4>
-    <h4 class="h5 g-color-primary" *ngIf="step === 2">Interests</h4>
+  <div class="col g-mb-50">
+    <h4 class="h6 g-color-gray-dark-v4" *ngIf="step !== 2">Interests</h4>
+    <h4 class="h6 g-color-primary" *ngIf="step === 2">Interests</h4>
   </div>
 
-  <div class="col-lg-3 col-sm-6 g-mb-50">
-    <h4 class="h5 g-color-gray-dark-v4" *ngIf="step !== 3">Contact Info</h4>
-    <h4 class="h5 g-color-primary" *ngIf="step === 3">Contact Info</h4>
+  <div class="col g-mb-50">
+    <h4 class="h6 g-color-gray-dark-v4" *ngIf="step !== 3">Contacts</h4>
+    <h4 class="h6 g-color-primary" *ngIf="step === 3">Contacts</h4>
   </div>
 
-  <div class="col-lg-3 col-sm-6 g-mb-50">
-    <h4 class="h5 g-color-gray-dark-v4" *ngIf="step !== 4">Complete</h4>
-    <h4 class="h5 g-color-primary" *ngIf="step === 4">Complete</h4>
+  <div class="col g-mb-50">
+    <h4 class="h6 g-color-gray-dark-v4" *ngIf="step !== 4">Complete</h4>
+    <h4 class="h6 g-color-primary" *ngIf="step === 4">Complete</h4>
   </div>
 </div>
 <div id="step1" *ngIf="step === 1">
