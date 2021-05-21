@@ -152,11 +152,11 @@ export class MultiStepFormComponent implements OnInit {
       this.multiStepForm.zip = this.formThree.controls.zip.value;
       this.multiStepForm.buildingType = this.formThree.controls.buildingType.value;
       this.multiStepForm.ownOrRent = this.formThree.controls.ownOrRent.value;
-    }
 
-    this.formOne.reset();
-    this.formTwo.reset();
-    this.formThree.reset();
+      this.formOne.reset();
+      this.formTwo.reset();
+      this.formThree.reset();
+    }
   }
 
   back() {
