@@ -146,6 +146,14 @@ import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.com
 import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
 import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
 import { ServiceAreasParagraphComponent } from './components/snippets/service-areas-paragraph/service-areas-paragraph.component';
+import { AthensComponent } from './components/pages/service-areas/athens/athens.component';
+import { BraseltonComponent } from './components/pages/service-areas/braselton/braselton.component';
+import { BufordComponent } from './components/pages/service-areas/buford/buford.component';
+import { ChateauElanComponent } from './components/pages/service-areas/chateau-elan/chateau-elan.component';
+import { ConcordeComponent } from './components/pages/service-areas/concorde/concorde.component';
+import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
+import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
+import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
 
 @NgModule({
   declarations: [
@@ -281,6 +289,14 @@ import { ServiceAreasParagraphComponent } from './components/snippets/service-ar
     AlpharettaComponent,
     AtlantaComponent,
     ServiceAreasParagraphComponent,
+    AthensComponent,
+    BraseltonComponent,
+    BufordComponent,
+    ChateauElanComponent,
+    ConcordeComponent,
+    CummingComponent,
+    DaculaComponent,
+    DecaturComponent,
   ],
   imports: [
     BrowserModule,

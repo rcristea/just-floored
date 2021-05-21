@@ -126,6 +126,14 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
 import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
+import { AthensComponent } from './components/pages/service-areas/athens/athens.component';
+import { BraseltonComponent } from './components/pages/service-areas/braselton/braselton.component';
+import { BufordComponent } from './components/pages/service-areas/buford/buford.component';
+import { ChateauElanComponent } from './components/pages/service-areas/chateau-elan/chateau-elan.component';
+import { ConcordeComponent } from './components/pages/service-areas/concorde/concorde.component';
+import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
+import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
+import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -252,8 +260,16 @@ const routes: Routes = [
   { path: 'blog/categories/vinyl-plank', component: VinylPlankCategoryComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
-  { path: 'service-area/alpharetta', component: AlpharettaComponent },
-  { path: 'service-area/atlanta', component: AtlantaComponent },
+  { path: 'service-area/floor-installation-alpharetta', component: AlpharettaComponent },
+  { path: 'service-area/atlanta-hardwood-installers', component: AtlantaComponent },
+  { path: 'service-area/wood-floors-athens-georgia', component: AthensComponent },
+  { path: 'service-area/braselton-floor-installation', component: BraseltonComponent },
+  { path: 'service-area/buford-flooring-contractor', component: BufordComponent },
+  { path: 'service-area/chateau-elan-wood-floor-installation', component: ChateauElanComponent },
+  { path: 'service-area/floor-installation-concorde-north-carolina', component: ConcordeComponent },
+  { path: 'service-area/cumming-floor-installation', component: CummingComponent },
+  { path: 'service-area/dacula-floor-installation', component: DaculaComponent },
+  { path: 'service-area/decatur-floor-installer', component: DecaturComponent },
 ];
 
 @NgModule({
