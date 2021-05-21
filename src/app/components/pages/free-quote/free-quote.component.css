@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+  .mobile-container-bigger {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mobile-margin-left {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-padding-top {
+    padding-top: 200px !important;
+  }
+}

@@ -10,6 +10,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
+import { DatepickerModule } from 'ng2-datepicker';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
@@ -139,6 +140,9 @@ import { StoneTitleCategoryComponent } from './components/pages/blog/categories/
 import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 import { SendEmailService } from './services/send-email.service';
 import { ContactUsComponent } from './components/snippets/contact-us/contact-us.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
+import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 
 @NgModule({
   declarations: [
@@ -268,6 +272,9 @@ import { ContactUsComponent } from './components/snippets/contact-us/contact-us.
     StoneTitleCategoryComponent,
     VinylPlankCategoryComponent,
     ContactUsComponent,
+    ContactComponent,
+    MultiStepFormComponent,
+    FreeQuoteComponent,
   ],
   imports: [
     BrowserModule,
@@ -276,6 +283,7 @@ import { ContactUsComponent } from './components/snippets/contact-us/contact-us.
     ReactiveFormsModule,
     RecaptchaModule,
     RecaptchaFormsModule,
+    DatepickerModule,
   ],
   providers: [
     SendEmailService,

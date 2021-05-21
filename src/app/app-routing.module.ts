@@ -122,6 +122,8 @@ import { LaminateFlooringCategoryComponent } from './components/pages/blog/categ
 import { RefinishingFloorsCategoryComponent } from './components/pages/blog/categories/refinishing-floors-category/refinishing-floors-category.component';
 import { StoneTitleCategoryComponent } from './components/pages/blog/categories/stone-title-category/stone-title-category.component';
 import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -246,6 +248,8 @@ const routes: Routes = [
   { path: 'blog/categories/refinishing-floors', component: RefinishingFloorsCategoryComponent },
   { path: 'blog/categories/stone-title', component: StoneTitleCategoryComponent },
   { path: 'blog/categories/vinyl-plank', component: VinylPlankCategoryComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'free-quote', component: FreeQuoteComponent },
 ];
 
 @NgModule({

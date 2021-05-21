@@ -358,7 +358,7 @@
 }
 
 .g-bg-primary-dark-v1 {
-  background-color: #6db82a !important;
+  background-color: #f79d4f !important;
 }
 
 .g-bg-primary-dark-v2 {
@@ -2445,15 +2445,15 @@
 }
 
 .g-brd-primary-dark-dark-v1 {
-  border-color: #6db82a !important;
+  border-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v1--hover:hover, .g-brd-primary-dark-dark-v1--active.active {
-  border-color: #6db82a !important;
+  border-color: #f79d4f !important;
 }
 
 *:hover > .g-brd-primary-dark-dark-v1--hover-parent {
-  border-color: #6db82a !important;
+  border-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v2 {
@@ -3076,19 +3076,19 @@
 }
 
 .g-brd-primary-dark-dark-v1-top {
-  border-top-color: #6db82a !important;
+  border-top-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v1-bottom {
-  border-bottom-color: #6db82a !important;
+  border-bottom-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v1-left {
-  border-left-color: #6db82a !important;
+  border-left-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v1-right {
-  border-right-color: #6db82a !important;
+  border-right-color: #f79d4f !important;
 }
 
 .g-brd-primary-dark-dark-v2-top {
