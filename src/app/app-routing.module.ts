@@ -140,6 +140,7 @@ import { FloweryBranchComponent } from './components/pages/service-areas/flowery
 import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
 import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
 import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
+import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -282,6 +283,7 @@ const routes: Routes = [
   { path: 'service-area/fort-mill-floor-installation', component: FortMillComponent },
   { path: 'service-area/gainesville-wood-floor-installation', component: GainesvilleComponent },
   { path: 'service-area/woodlands-hardwood-floor-installation', component: GalvestonComponent },
+  { path: 'service-area/hoschton-flooring-contractor', component: HoschtonComponent },
 ];
 
 @NgModule({

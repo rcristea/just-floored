@@ -160,6 +160,7 @@ import { FloweryBranchComponent } from './components/pages/service-areas/flowery
 import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
 import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
 import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
+import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
 
 @NgModule({
   declarations: [
@@ -309,6 +310,7 @@ import { GalvestonComponent } from './components/pages/service-areas/galveston/g
     FortMillComponent,
     GainesvilleComponent,
     GalvestonComponent,
+    HoschtonComponent,
   ],
   imports: [
     BrowserModule,
