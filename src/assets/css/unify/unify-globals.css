@@ -29,12 +29,6 @@
 }
 
 /* Link overlay */
-/*------------------------------------
-  Background Attachment
-------------------------------------*/
-.g-bg-attachment-fixed {
-  background-attachment: fixed;
-}
 
 /*------------------------------------
   Background Gradient Colors
@@ -49,93 +43,6 @@
 /* White v1 */
 .g-bg-white-gradient-v1--after::after {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9));
-}
-
-/* Linear Gradients
-------------------------------------*/
-/* Gray Gradient */
-.g-bg-gray-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(180deg, #fff, #dbdbdb);
-}
-
-/* Blue Pink Gradient */
-.g-bg-bluepink-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(50deg, #2b7cb6, #f62d51);
-}
-
-/* Blue Gradient */
-.g-bg-blue-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(0deg, #73bec7, #4e66b0);
-}
-
-.g-bg-blue-lineargradient-v2 {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #429edc, #00629e);
-}
-
-.g-bg-blue-lineargradient-v3 {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #3266a2, #98cfbf);
-}
-
-.g-bg-blue-lineargradient-v4 {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #5b85df, #3ec2e3);
-}
-
-.g-bg-blue-lineargradient-v5 {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #0050c2, #5180fa);
-}
-
-/* Orange Gradient */
-.g-bg-orange-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #be1715, #ed6d0f);
-}
-
-.g-bg-orange-lineargradient-v2 {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #f5cd21, #c22821);
-}
-
-/* Yellow Gradient */
-.g-bg-yellow-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #f59b00, #f5d400);
-}
-
-/* Dark Purple Gradient */
-.g-bg-darkpurple-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #0b011d, #330c3c);
-}
-
-/* Blue Gray Gradient */
-.g-bg-bluegray-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #1d253c, #3e4757);
-}
-
-/* Pink Gradient */
-.g-bg-pink-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #b6003b, #ed1261);
-}
-
-/* Pink-v2 Gradient */
-.g-bg-pink-lineargradient-v2 {
-  background-image: linear-gradient(to right top, #fc7279 10%, #ff7b9c 65%, #ffc019 125%);
-  background-repeat: no-repeat;
-}
-
-/* Red Gradient */
-.g-bg-red-lineargradient {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(225deg, #d70417, #9f041b);
 }
 
 /* Black Gradient */
@@ -1201,139 +1108,6 @@
 }
 
 /*------------------------------------
-  Social Background Colors
-------------------------------------*/
-/* Facebook */
-.g-bg-facebook {
-  background-color: #3b5998;
-}
-
-.u-block-hover:hover .g-bg-facebook--hover, .g-bg-facebook--hover:hover {
-  background-color: #344e86 !important;
-}
-
-/* Twitter */
-.g-bg-twitter {
-  background-color: #00acee;
-}
-
-.u-block-hover:hover .g-bg-twitter--hover, .g-bg-twitter--hover:hover {
-  background-color: #009ad5 !important;
-}
-
-/* Skype */
-.g-bg-skype {
-  background-color: #00aff0;
-}
-
-.u-block-hover:hover .g-bg-skype--hover, .g-bg-skype--hover:hover {
-  background-color: #009cd7 !important;
-}
-
-/* Pinterest */
-.g-bg-pinterest {
-  background-color: #c8232c;
-}
-
-.u-block-hover:hover .g-bg-pinterest--hover, .g-bg-pinterest--hover:hover {
-  background-color: #b21f27 !important;
-}
-
-/* Vine */
-.g-bg-vine {
-  background-color: #00bf8f;
-}
-
-.u-block-hover:hover .g-bg-vine--hover, .g-bg-vine--hover:hover {
-  background-color: #00a67c !important;
-}
-
-/* Youtube */
-.g-bg-youtube {
-  background-color: #c4302b;
-}
-
-.u-block-hover:hover .g-bg-youtube--hover, .g-bg-youtube--hover:hover {
-  background-color: #af2b26 !important;
-}
-
-/* Google plus */
-.g-bg-google-plus {
-  background-color: #dd4b39;
-}
-
-.u-block-hover:hover .g-bg-google-plus--hover, .g-bg-google-plus--hover:hover {
-  background-color: #d73925 !important;
-}
-
-/* Dribbble */
-.g-bg-dribbble {
-  background-color: #ea4c89;
-}
-
-.u-block-hover:hover .g-bg-dribbble--hover, .g-bg-dribbble--hover:hover {
-  background-color: #e7357a !important;
-}
-
-/* VK */
-.g-bg-vk {
-  background-color: #2b587a;
-}
-
-.u-block-hover:hover .g-bg-vk--hover, .g-bg-vk--hover:hover {
-  background-color: #244a67 !important;
-}
-
-/* Linkedin */
-.g-bg-linkedin {
-  background-color: #0e76a8;
-}
-
-.u-block-hover:hover .g-bg-linkedin--hover, .g-bg-linkedin--hover:hover {
-  background-color: #0c6590 !important;
-}
-
-/* Instagram */
-.g-bg-instagram {
-  background-color: #3f729b;
-}
-
-.u-block-hover:hover .g-bg-instagram--hover, .g-bg-instagram--hover:hover {
-  background-color: #386589 !important;
-}
-
-/*------------------------------------
-  Images Grid
-------------------------------------*/
-.g-bg-grid-v1--before::before {
-  background-image: url(../img/bg/grid/wave.png);
-}
-
-.g-bg-grid-v2--before::after {
-  background-image: url(../img/bg/grid/tile-left.png);
-}
-
-.g-bg-grid-v3--before::after {
-  background-image: url(../img/bg/grid/tile-right.png);
-}
-
-.g-bg-grid-v4--before::after {
-  background-image: url(../img/bg/grid/diagonal-left.png);
-}
-
-.g-bg-grid-v5--before::after {
-  background-image: url(../img/bg/grid/diagonal-right.png);
-}
-
-.g-bg-grid-v6--before::after {
-  background-image: url(../img/bg/grid/zigzag-left.png);
-}
-
-.g-bg-grid-v7--before::after {
-  background-image: url(../img/bg/grid/zigzag-right.png);
-}
-
-/*------------------------------------
   Covers
 ------------------------------------*/
 .g-bg-cover {
@@ -1372,13 +1146,6 @@
 }
 
 /*------------------------------------
-  Background Patterns
-------------------------------------*/
-.g-bg-pattern-green {
-  background-image: url("../img/bg/pattern--green.png");
-}
-
-/*------------------------------------
   Background Position
 ------------------------------------*/
 .g-bg-pos-center {
@@ -1403,13 +1170,6 @@
 
 .g-bg-pos-bottom-center {
   background-position: bottom center;
-}
-
-/*------------------------------------
-  Background Repeat
-------------------------------------*/
-.g-bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 /*------------------------------------
@@ -1447,124 +1207,6 @@
   background-repeat: repeat !important;
   /* P */
   background-size: auto !important;
-}
-
-/* Primary Colors */
-.g-fill-primary {
-  fill: #ee8d39 !important;
-}
-
-.g-fill-primary path,
-.g-fill-primary polygon {
-  fill: #ee8d39 !important;
-}
-
-.g-fill-primary--hover:hover path,
-.g-fill-primary--hover:hover polygon {
-  fill: #ee8d39 !important;
-}
-
-*:hover > * > .g-fill-primary--hover-parent svg path,
-*:hover > * > .g-fill-primary--hover-parent svg polygon {
-  fill: #ee8d39 !important;
-}
-
-.g-fill-white {
-  fill: #fff !important;
-}
-
-.g-fill-white path,
-.g-fill-white polygon {
-  fill: #fff !important;
-}
-
-.g-fill-white--opened-menu:not(.collapsed) path,
-.g-fill-white--opened-menu:not(.collapsed) polygon {
-  fill: #fff !important;
-}
-
-*:not(.collapsed) > .g-fill-white--parent-opened-menu path,
-*:not(.collapsed) > .g-fill-white--parent-opened-menu polygon {
-  fill: #fff !important;
-}
-
-.g-fill-white--hover:hover path,
-.g-fill-white--hover:hover polygon {
-  fill: #fff !important;
-}
-
-*:hover > * > .g-fill-white--hover-parent svg path,
-*:hover > * > .g-fill-white--hover-parent svg polygon {
-  fill: #fff !important;
-}
-
-.g-fill-main {
-  fill: #555 !important;
-}
-
-.g-fill-main path,
-.g-fill-main polygon {
-  fill: #555 !important;
-}
-
-.g-fill-main--opened-menu:not(.collapsed) path,
-.g-fill-main--opened-menu:not(.collapsed) polygon {
-  fill: #555 !important;
-}
-
-*:not(.collapsed) > .g-fill-main--parent-opened-menu path,
-*:not(.collapsed) > .g-fill-main--parent-opened-menu polygon {
-  fill: #555 !important;
-}
-
-.g-fill-main--hover:hover path,
-.g-fill-main--hover:hover polygon {
-  fill: #555 !important;
-}
-
-*:hover > * > .g-fill-main--hover-parent svg path,
-*:hover > * > .g-fill-main--hover-parent svg polygon {
-  fill: #fff !important;
-}
-
-.g-fill-gray-light-v4 path,
-.g-fill-gray-light-v4 polygon {
-  fill: #eee !important;
-}
-
-.g-fill-gray-light-v4--hover:hover path,
-.g-fill-gray-light-v4--hover:hover polygon {
-  fill: #eee !important;
-}
-
-*:hover > * > .g-fill-gray-light-v4--hover-parent svg path,
-*:hover > * > .g-fill-gray-light-v4--hover-parent svg polygon {
-  fill: #eee !important;
-}
-
-.g-fill-red path,
-.g-fill-red polygon {
-  fill: #f00 !important;
-}
-
-.g-fill-red--hover:hover path,
-.g-fill-red--hover:hover polygon {
-  fill: #f00 !important;
-}
-
-*:hover > * > .g-fill-red--hover-parent path,
-*:hover > * > .g-fill-red--hover-parent polygon {
-  fill: #f00 !important;
-}
-
-*:hover > .g-fill-red--parent-hover path,
-*:hover > .g-fill-red--parent-hover polygon {
-  fill: #f00 !important;
-}
-
-*:hover > * > * > .g-fill-red--parent-parent-parent-hover path,
-*:hover > * > * > .g-fill-red--parent-parent-parent-hover polygon {
-  fill: #f00 !important;
 }
 
 /*------------------------------------
@@ -1902,79 +1544,6 @@
   border-radius: 100px !important;
 }
 
-/* Rounded Top */
-.g-rounded-top-5 {
-  border-top-left-radius: 5px !important;
-  border-top-right-radius: 5px !important;
-}
-
-/* Rounded Right */
-.g-rounded-right-0 {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-}
-
-.g-rounded-right-3 {
-  border-top-right-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
-}
-
-.g-rounded-right-4 {
-  border-top-right-radius: 4px !important;
-  border-bottom-right-radius: 4px !important;
-}
-
-.g-rounded-right-5 {
-  border-top-right-radius: 5px !important;
-  border-bottom-right-radius: 5px !important;
-}
-
-.g-rounded-right-10 {
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-}
-
-.g-rounded-right-20 {
-  border-bottom-right-radius: 20px !important;
-  border-top-right-radius: 20px !important;
-}
-
-.g-rounded-right-25 {
-  border-bottom-right-radius: 25px !important;
-  border-top-right-radius: 25px !important;
-}
-
-.g-rounded-right-30 {
-  border-top-right-radius: 30px !important;
-  border-bottom-right-radius: 30px !important;
-}
-
-.g-rounded-right-50 {
-  border-top-right-radius: 50px !important;
-  border-bottom-right-radius: 50px !important;
-}
-
-/* Rounded Bottom */
-.g-rounded-bottom-0 {
-  border-bottom-right-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-}
-
-.g-rounded-bottom-3 {
-  border-bottom-left-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
-}
-
-.g-rounded-bottom-4 {
-  border-bottom-left-radius: 4px !important;
-  border-bottom-right-radius: 4px !important;
-}
-
-.g-rounded-bottom-5 {
-  border-bottom-left-radius: 5px !important;
-  border-bottom-right-radius: 5px !important;
-}
-
 /* Rounded Left */
 .g-rounded-left-0 {
   border-top-left-radius: 0 !important;
@@ -2037,20 +1606,12 @@
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
   }
-  .g-rounded-right-0--md {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-  }
 }
 
 @media (min-width: 992px) {
   .g-rounded-left-5--lg-up {
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important;
-  }
-  .g-rounded-right-5--lg-up {
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
   }
 }
 

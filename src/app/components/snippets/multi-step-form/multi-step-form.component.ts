@@ -24,7 +24,7 @@ export class MultiStepFormComponent implements OnInit {
     format: 'LLLL do yyyy',
     formatTitle: 'LLLL yyyy',
     formatDays: 'EEEEE',
-    inputClass: 'form-control form-control-md u-datepicker-v1 g-brd-right-none rounded-0',
+    inputClass: 'form-control form-control-md g-brd-right-none rounded-0',
     scrollBarColor: '#dfe3e9',
   };
   

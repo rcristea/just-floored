@@ -124,6 +124,7 @@ import { StoneTitleCategoryComponent } from './components/pages/blog/categories/
 import { VinylPlankCategoryComponent } from './components/pages/blog/categories/vinyl-plank-category/vinyl-plank-category.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
+import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -250,6 +251,8 @@ const routes: Routes = [
   { path: 'blog/categories/vinyl-plank', component: VinylPlankCategoryComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
+  { path: '404', component: NotFoundComponent },
+  { path: '**', redirectTo: '/404' }, // Must be last
 ];
 
 @NgModule({
