@@ -33,7 +33,7 @@ export class MultiStepFormComponent implements OnInit {
     date: "",
     time: null,
     productsOfInterest: null,
-    roomsOfInterest: ["", ""], // Make the type string[] so we can assign the checkbox kets to this
+    roomsOfInterest: ["", ""], // Make the type string[] so we can assign the checkbox keys to this
     fullName: null,
     email: null,
     phone: null,
