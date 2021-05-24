@@ -30,7 +30,7 @@ export class MultiStepFormComponent implements OnInit {
   
   multiStepForm = {
     propertyType: null,
-    date: null,
+    date: "",
     time: null,
     productsOfInterest: null,
     roomsOfInterest: ["", ""], // Make the type string[] so we can assign the checkbox kets to this
@@ -52,7 +52,7 @@ export class MultiStepFormComponent implements OnInit {
     { key: 'Bathroom', text: 'Bathroom' }
   ]
 
-  constructor(private formBuilder: FormBuilder) { 
+  constructor(private formBuilder: FormBuilder, private sendEmail: SendEmailService) { 
     this.formOne = this.formBuilder.group({
       propertyType: [null, Validators.required],
       date: [null, Validators.required],
@@ -112,8 +112,10 @@ export class MultiStepFormComponent implements OnInit {
   step1() {
     if (this.formOne.valid) {
       this.step = 2;
+
+      let date = this.formOne.controls.date.value + "";
       this.multiStepForm.propertyType = this.formOne.controls.propertyType.value;
-      this.multiStepForm.date = this.formOne.controls.date.value;
+      this.multiStepForm.date = date;
       this.multiStepForm.time = this.formOne.controls.time.value;
     }
   }
@@ -129,9 +131,30 @@ export class MultiStepFormComponent implements OnInit {
       if (roomsGroup != null) {
         Object.keys(roomsGroup.controls).forEach(key => {
           const control = roomsGroup.controls[key];
-
           if (control.value) {
-            roomsSelected.push(key);
+            if (key === 'basementCheckbox') {
+              roomsSelected.push('Basement');
+            } else if (key === 'bathroomCheckbox') {
+              roomsSelected.push('Bathroom');
+            } else if (key === 'bedroomCheckbox') {
+              roomsSelected.push('Bedroom');
+            } else if (key === 'diningRoomCheckbox') {
+              roomsSelected.push('Dining Room');
+            } else if (key === 'familyRoomCheckbox') {
+              roomsSelected.push('Family Room');
+            } else if (key === 'livingRoomCheckbox') {
+              roomsSelected.push('Living Room');
+            } else if (key === 'kitchenCheckbox') {
+              roomsSelected.push('Kitchen');
+            } else if (key === 'officeCheckbox') {
+              roomsSelected.push('Office');
+            } else if (key === 'patioCheckbox') {
+              roomsSelected.push('Patio');
+            } else if (key === 'hallwayCheckbox') {
+              roomsSelected.push('Hallway');
+            } else if (key === 'otherCheckbox') {
+              roomsSelected.push ('Other');
+            }
           }
         });
       }
@@ -156,6 +179,13 @@ export class MultiStepFormComponent implements OnInit {
       this.formOne.reset();
       this.formTwo.reset();
       this.formThree.reset();
+
+      this.sendEmail.to('http://localhost:3000/free-quote/sendmail', this.multiStepForm).subscribe(
+      data => {
+        let res: any = data;
+        console.log(`${this.multiStepForm.fullName} succesfully sent a message.`);
+      }
+    );
     }
   }
 
