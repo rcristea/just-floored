@@ -49,21 +49,6 @@ server.listen(port, () => console.log(`Server running on localhost:${port}`));
  */
 app.post('/contact/sendmail', (req, res) => {
   let data = req.body;
-  sendMail(data, info => {
-    res.send(info);
-  });
-});
-
-async function sendMail(data, callback) {
-  let transporter = nodemailer.createTransport({
-    host: process.env.MAIL_HOST,
-    port: process.env.MAIL_PORT,
-    secure: false,
-    auth: {
-      user: process.env.MAIL_USERNAME,
-      pass: process.env.MAIL_PASSWORD,
-    }
-  });
 
   let mailOptions = {
     from: process.env.MAIL_FROM_ADDRESS,
@@ -76,6 +61,66 @@ async function sendMail(data, callback) {
       <p>${data.message}</p>
       `
   }
+
+  sendMail(mailOptions, info => {
+    res.send(info);
+  });
+});
+
+app.post('/free-quote/sendmail', (req, res) => {
+  let data = req.body;
+
+  let mailOptions = {
+    from: process.env.MAIL_FROM_ADDRESS,
+    to: process.env.MAIL_FROM_ADDRESS,
+    subject: `${data.fullName} sent you a free quote request from JustFloored.com`,
+    html: `<h3>Start:</h3>
+      <ul>
+        <li><strong>Property Type:</strong> ${data.propertyType}</li>
+        <li><strong>Date:</strong> ${data.date}</li>
+        <li><strong>Time:</strong> ${data.time}</li>
+      </ul>
+      <h3>Interests:</h3>
+      <ul>
+        <li><strong>Products of Interest:</strong> ${data.productsOfInterest}</li>
+        <li><strong>Rooms Interested In:</strong> ${data.roomsOfInterest}</li>
+      </ul>
+      <h3>Contact Info:</h3>
+      <ul>
+        <li><strong>Full Name:</strong> ${data.fullName}</li>
+        <li><strong>Email:</strong> ${data.email}</li>
+        <li><strong>Phone Number:</strong> ${data.phone}</li>
+        <li><strong>Street Address:</strong> ${data.street}</li>
+        <li><strong>City:</strong> ${data.city}</li>
+        <li><strong>State:</strong> ${data.state}</li>
+        <li><strong>Zip Code:</strong> ${data.zip}</li>
+        <li><strong>Building Type:</strong> ${data.buildingType}</li>
+        <li><strong>Own Or Rent:</strong> ${data.ownOrRent}</li>
+      </ul>
+    `
+  }
+
+  sendMail(mailOptions, info => {
+    res.send(info);
+  });
+})
+
+/**
+ * Sends email using the mailOptions as the data in the email.
+ * 
+ * @param {*} mailOptions 
+ * @param {*} callback 
+ */
+async function sendMail(mailOptions, callback) {
+  let transporter = nodemailer.createTransport({
+    host: process.env.MAIL_HOST,
+    port: process.env.MAIL_PORT,
+    secure: false,
+    auth: {
+      user: process.env.MAIL_USERNAME,
+      pass: process.env.MAIL_PASSWORD,
+    }
+  });
 
   let info = await transporter.sendMail(mailOptions);
   callback(info);
