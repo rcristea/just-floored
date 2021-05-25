@@ -125,6 +125,47 @@ import { VinylPlankCategoryComponent } from './components/pages/blog/categories/
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
+import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
+import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
+import { AthensComponent } from './components/pages/service-areas/athens/athens.component';
+import { BraseltonComponent } from './components/pages/service-areas/braselton/braselton.component';
+import { BufordComponent } from './components/pages/service-areas/buford/buford.component';
+import { ChateauElanComponent } from './components/pages/service-areas/chateau-elan/chateau-elan.component';
+import { ConcordeComponent } from './components/pages/service-areas/concorde/concorde.component';
+import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
+import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
+import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
+import { DuluthComponent } from './components/pages/service-areas/duluth/duluth.component';
+import { DunwoodyComponent } from './components/pages/service-areas/dunwoody/dunwoody.component';
+import { FloweryBranchComponent } from './components/pages/service-areas/flowery-branch/flowery-branch.component';
+import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
+import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
+import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
+import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
+import { HoustonComponent } from './components/pages/service-areas/houston/houston.component';
+import { JacksonvilleComponent } from './components/pages/service-areas/jacksonville/jacksonville.component';
+import { JohnsCreekComponent } from './components/pages/service-areas/johns-creek/johns-creek.component';
+import { KennesawComponent } from './components/pages/service-areas/kennesaw/kennesaw.component';
+import { LilburnComponent } from './components/pages/service-areas/lilburn/lilburn.component';
+import { LoganvilleComponent } from './components/pages/service-areas/loganville/loganville.component';
+import { MariettaComponent } from './components/pages/service-areas/marietta/marietta.component';
+import { MiltonComponent } from './components/pages/service-areas/milton/milton.component';
+import { MyrtleBeachComponent } from './components/pages/service-areas/myrtle-beach/myrtle-beach.component';
+import { PalmValleyComponent } from './components/pages/service-areas/palm-valley/palm-valley.component';
+import { PeachtreeCornersComponent } from './components/pages/service-areas/peachtree-corners/peachtree-corners.component';
+import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
+import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
+import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
+import { SnellvilleComponent } from './components/pages/service-areas/snellville/snellville.component';
+import { OrangeParkComponent } from './components/pages/service-areas/orange-park/orange-park.component';
+import { OrlandoComponent } from './components/pages/service-areas/orlando/orlando.component';
+import { SmyrnaComponent } from './components/pages/service-areas/smyrna/smyrna.component';
+import { StAugustineComponent } from './components/pages/service-areas/st-augustine/st-augustine.component';
+import { SugarHillComponent } from './components/pages/service-areas/sugar-hill/sugar-hill.component';
+import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwanee.component';
+import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
+import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
+import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -251,6 +292,47 @@ const routes: Routes = [
   { path: 'blog/categories/vinyl-plank', component: VinylPlankCategoryComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
+  { path: 'service-area/floor-installation-alpharetta', component: AlpharettaComponent },
+  { path: 'service-area/atlanta-hardwood-installers', component: AtlantaComponent },
+  { path: 'service-area/wood-floors-athens-georgia', component: AthensComponent },
+  { path: 'service-area/braselton-floor-installation', component: BraseltonComponent },
+  { path: 'service-area/buford-flooring-contractor', component: BufordComponent },
+  { path: 'service-area/chateau-elan-wood-floor-installation', component: ChateauElanComponent },
+  { path: 'service-area/floor-installation-concorde-north-carolina', component: ConcordeComponent },
+  { path: 'service-area/cumming-floor-installation', component: CummingComponent },
+  { path: 'service-area/dacula-floor-installation', component: DaculaComponent },
+  { path: 'service-area/decatur-floor-installer', component: DecaturComponent },
+  { path: 'service-area/duluth-floor-installation', component: DuluthComponent },
+  { path: 'service-area/dunwoody-floor-installation-service', component: DunwoodyComponent },
+  { path: 'service-area/flowery-branch-floor-installer', component: FloweryBranchComponent },
+  { path: 'service-area/fort-mill-floor-installation', component: FortMillComponent },
+  { path: 'service-area/gainesville-wood-floor-installation', component: GainesvilleComponent },
+  { path: 'service-area/woodlands-hardwood-floor-installation', component: GalvestonComponent },
+  { path: 'service-area/hoschton-flooring-contractor', component: HoschtonComponent },
+  { path: 'service-area/houston-floor-installation', component: HoustonComponent },
+  { path: 'service-area/jacksonville-hardwood-floors', component: JacksonvilleComponent },
+  { path: 'service-area/flooring-installations-johns-creek', component: JohnsCreekComponent },
+  { path: 'service-area/kennesaw-floor-installation', component: KennesawComponent },
+  { path: 'service-area/lilburn-wood-floor-installation', component: LilburnComponent },
+  { path: 'service-area/loganville-floor-installation', component: LoganvilleComponent },
+  { path: 'service-area/hardwood-floor-installation-marietta-ga', component: MariettaComponent },
+  { path: 'service-area/floor-installation-milton', component: MiltonComponent },
+  { path: 'service-area/myrtle-beach-floor-installation-refinishing', component: MyrtleBeachComponent },
+  { path: 'service-area/palm-valley-floor-installation', component: PalmValleyComponent },
+  { path: 'service-area/peachtree-corners-hardwood-floor-installation', component: PeachtreeCornersComponent },
+  { path: 'service-area/ponte-vedra-florida', component: PonteVedraComponent },
+  { path: 'service-area/roswell-floor-installation', component: RoswellComponent },
+  { path: 'service-area/floor-installer-sandy-springs', component: SandySpringsComponent },
+  { path: 'service-area/snellville-floor-installation', component: SnellvilleComponent },
+  { path: 'service-area/orange-park-floor-installation', component: OrangeParkComponent },
+  { path: 'service-area/orlando-floor-installation', component: OrlandoComponent },
+  { path: 'service-area/smyrna-floor-installation', component: SmyrnaComponent },
+  { path: 'service-area/st-augusting-floor-installation', component: StAugustineComponent },
+  { path: 'service-area/sugar-hill-floor-installation', component: SugarHillComponent },
+  { path: 'service-area/suwanee-floor-installer', component: SuwaneeComponent },
+  { path: 'service-area/tucker-floor-installation', component: TuckerComponent },
+  { path: 'service-area/vinings-floor-installation', component: ViningsComponent },
+  { path: 'service-area/winter-park-floor-installation', component: WinterParkComponent },
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }, // Must be last
 ];
