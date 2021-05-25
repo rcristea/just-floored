@@ -166,6 +166,7 @@ import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwan
 import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
 import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
 import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
+import { CouponComponent } from './components/pages/coupon/coupon.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -333,6 +334,7 @@ const routes: Routes = [
   { path: 'service-area/tucker-floor-installation', component: TuckerComponent },
   { path: 'service-area/vinings-floor-installation', component: ViningsComponent },
   { path: 'service-area/winter-park-floor-installation', component: WinterParkComponent },
+  { path: 'coupon', component: CouponComponent },
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }, // Must be last
 ];

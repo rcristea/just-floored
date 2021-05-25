@@ -186,6 +186,7 @@ import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwan
 import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
 import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
 import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
+import { CouponComponent } from './components/pages/coupon/coupon.component';
 
 @NgModule({
   declarations: [
@@ -361,6 +362,7 @@ import { WinterParkComponent } from './components/pages/service-areas/winter-par
     TuckerComponent,
     ViningsComponent,
     WinterParkComponent,
+    CouponComponent,
   ],
   imports: [
     BrowserModule,
