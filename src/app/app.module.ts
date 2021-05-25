@@ -175,6 +175,16 @@ import { PeachtreeCornersComponent } from './components/pages/service-areas/peac
 import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
 import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
 import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
+import { SnellvilleComponent } from './components/pages/service-areas/snellville/snellville.component';
+import { OrangeParkComponent } from './components/pages/service-areas/orange-park/orange-park.component';
+import { OrlandoComponent } from './components/pages/service-areas/orlando/orlando.component';
+import { SmyrnaComponent } from './components/pages/service-areas/smyrna/smyrna.component';
+import { StAugustineComponent } from './components/pages/service-areas/st-augustine/st-augustine.component';
+import { SugarHillComponent } from './components/pages/service-areas/sugar-hill/sugar-hill.component';
+import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwanee.component';
+import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
+import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
+import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
 
 @NgModule({
   declarations: [
@@ -339,6 +349,16 @@ import { SandySpringsComponent } from './components/pages/service-areas/sandy-sp
     PonteVedraComponent,
     RoswellComponent,
     SandySpringsComponent,
+    SnellvilleComponent,
+    OrangeParkComponent,
+    OrlandoComponent,
+    SmyrnaComponent,
+    StAugustineComponent,
+    SugarHillComponent,
+    SuwaneeComponent,
+    TuckerComponent,
+    ViningsComponent,
+    WinterParkComponent,
   ],
   imports: [
     BrowserModule,

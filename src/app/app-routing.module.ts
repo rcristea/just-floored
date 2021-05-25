@@ -155,6 +155,16 @@ import { PeachtreeCornersComponent } from './components/pages/service-areas/peac
 import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
 import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
 import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
+import { SnellvilleComponent } from './components/pages/service-areas/snellville/snellville.component';
+import { OrangeParkComponent } from './components/pages/service-areas/orange-park/orange-park.component';
+import { OrlandoComponent } from './components/pages/service-areas/orlando/orlando.component';
+import { SmyrnaComponent } from './components/pages/service-areas/smyrna/smyrna.component';
+import { StAugustineComponent } from './components/pages/service-areas/st-augustine/st-augustine.component';
+import { SugarHillComponent } from './components/pages/service-areas/sugar-hill/sugar-hill.component';
+import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwanee.component';
+import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
+import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
+import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -312,6 +322,16 @@ const routes: Routes = [
   { path: 'service-area/ponte-vedra-florida', component: PonteVedraComponent },
   { path: 'service-area/roswell-floor-installation', component: RoswellComponent },
   { path: 'service-area/floor-installer-sandy-springs', component: SandySpringsComponent },
+  { path: 'service-area/snellville-floor-installation', component: SnellvilleComponent },
+  { path: 'service-area/orange-park-floor-installation', component: OrangeParkComponent },
+  { path: 'service-area/orlando-floor-installation', component: OrlandoComponent },
+  { path: 'service-area/smyrna-floor-installation', component: SmyrnaComponent },
+  { path: 'service-area/st-augusting-floor-installation', component: StAugustineComponent },
+  { path: 'service-area/sugar-hill-floor-installation', component: SugarHillComponent },
+  { path: 'service-area/suwanee-floor-installer', component: SuwaneeComponent },
+  { path: 'service-area/tucker-floor-installation', component: TuckerComponent },
+  { path: 'service-area/vinings-floor-installation', component: ViningsComponent },
+  { path: 'service-area/winter-park-floor-installation', component: WinterParkComponent },
 ];
 
 @NgModule({
