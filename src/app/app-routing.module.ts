@@ -141,6 +141,20 @@ import { FortMillComponent } from './components/pages/service-areas/fort-mill/fo
 import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
 import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
 import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
+import { HoustonComponent } from './components/pages/service-areas/houston/houston.component';
+import { JacksonvilleComponent } from './components/pages/service-areas/jacksonville/jacksonville.component';
+import { JohnsCreekComponent } from './components/pages/service-areas/johns-creek/johns-creek.component';
+import { KennesawComponent } from './components/pages/service-areas/kennesaw/kennesaw.component';
+import { LilburnComponent } from './components/pages/service-areas/lilburn/lilburn.component';
+import { LoganvilleComponent } from './components/pages/service-areas/loganville/loganville.component';
+import { MariettaComponent } from './components/pages/service-areas/marietta/marietta.component';
+import { MiltonComponent } from './components/pages/service-areas/milton/milton.component';
+import { MyrtleBeachComponent } from './components/pages/service-areas/myrtle-beach/myrtle-beach.component';
+import { PalmValleyComponent } from './components/pages/service-areas/palm-valley/palm-valley.component';
+import { PeachtreeCornersComponent } from './components/pages/service-areas/peachtree-corners/peachtree-corners.component';
+import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
+import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
+import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -284,6 +298,20 @@ const routes: Routes = [
   { path: 'service-area/gainesville-wood-floor-installation', component: GainesvilleComponent },
   { path: 'service-area/woodlands-hardwood-floor-installation', component: GalvestonComponent },
   { path: 'service-area/hoschton-flooring-contractor', component: HoschtonComponent },
+  { path: 'service-area/houston-floor-installation', component: HoustonComponent },
+  { path: 'service-area/jacksonville-hardwood-floors', component: JacksonvilleComponent },
+  { path: 'service-area/flooring-installations-johns-creek', component: JohnsCreekComponent },
+  { path: 'service-area/kennesaw-floor-installation', component: KennesawComponent },
+  { path: 'service-area/lilburn-wood-floor-installation', component: LilburnComponent },
+  { path: 'service-area/loganville-floor-installation', component: LoganvilleComponent },
+  { path: 'service-area/hardwood-floor-installation-marietta-ga', component: MariettaComponent },
+  { path: 'service-area/floor-installation-milton', component: MiltonComponent },
+  { path: 'service-area/myrtle-beach-floor-installation-refinishing', component: MyrtleBeachComponent },
+  { path: 'service-area/palm-valley-floor-installation', component: PalmValleyComponent },
+  { path: 'service-area/peachtree-corners-hardwood-floor-installation', component: PeachtreeCornersComponent },
+  { path: 'service-area/ponte-vedra-florida', component: PonteVedraComponent },
+  { path: 'service-area/roswell-floor-installation', component: RoswellComponent },
+  { path: 'service-area/floor-installer-sandy-springs', component: SandySpringsComponent },
 ];
 
 @NgModule({

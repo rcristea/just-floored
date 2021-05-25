@@ -161,6 +161,20 @@ import { FortMillComponent } from './components/pages/service-areas/fort-mill/fo
 import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
 import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
 import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
+import { HoustonComponent } from './components/pages/service-areas/houston/houston.component';
+import { JacksonvilleComponent } from './components/pages/service-areas/jacksonville/jacksonville.component';
+import { JohnsCreekComponent } from './components/pages/service-areas/johns-creek/johns-creek.component';
+import { KennesawComponent } from './components/pages/service-areas/kennesaw/kennesaw.component';
+import { LilburnComponent } from './components/pages/service-areas/lilburn/lilburn.component';
+import { LoganvilleComponent } from './components/pages/service-areas/loganville/loganville.component';
+import { MariettaComponent } from './components/pages/service-areas/marietta/marietta.component';
+import { MiltonComponent } from './components/pages/service-areas/milton/milton.component';
+import { MyrtleBeachComponent } from './components/pages/service-areas/myrtle-beach/myrtle-beach.component';
+import { PalmValleyComponent } from './components/pages/service-areas/palm-valley/palm-valley.component';
+import { PeachtreeCornersComponent } from './components/pages/service-areas/peachtree-corners/peachtree-corners.component';
+import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
+import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
+import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
 
 @NgModule({
   declarations: [
@@ -311,6 +325,20 @@ import { HoschtonComponent } from './components/pages/service-areas/hoschton/hos
     GainesvilleComponent,
     GalvestonComponent,
     HoschtonComponent,
+    HoustonComponent,
+    JacksonvilleComponent,
+    JohnsCreekComponent,
+    KennesawComponent,
+    LilburnComponent,
+    LoganvilleComponent,
+    MariettaComponent,
+    MiltonComponent,
+    MyrtleBeachComponent,
+    PalmValleyComponent,
+    PeachtreeCornersComponent,
+    PonteVedraComponent,
+    RoswellComponent,
+    SandySpringsComponent,
   ],
   imports: [
     BrowserModule,
