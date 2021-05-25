@@ -144,6 +144,49 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { MultiStepFormComponent } from './components/snippets/multi-step-form/multi-step-form.component';
 import { FreeQuoteComponent } from './components/pages/free-quote/free-quote.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
+import { AlpharettaComponent } from './components/pages/service-areas/alpharetta/alpharetta.component';
+import { AtlantaComponent } from './components/pages/service-areas/atlanta/atlanta.component';
+import { ServiceAreasParagraphComponent } from './components/snippets/service-areas-paragraph/service-areas-paragraph.component';
+import { AthensComponent } from './components/pages/service-areas/athens/athens.component';
+import { BraseltonComponent } from './components/pages/service-areas/braselton/braselton.component';
+import { BufordComponent } from './components/pages/service-areas/buford/buford.component';
+import { ChateauElanComponent } from './components/pages/service-areas/chateau-elan/chateau-elan.component';
+import { ConcordeComponent } from './components/pages/service-areas/concorde/concorde.component';
+import { CummingComponent } from './components/pages/service-areas/cumming/cumming.component';
+import { DaculaComponent } from './components/pages/service-areas/dacula/dacula.component';
+import { DecaturComponent } from './components/pages/service-areas/decatur/decatur.component';
+import { DuluthComponent } from './components/pages/service-areas/duluth/duluth.component';
+import { DunwoodyComponent } from './components/pages/service-areas/dunwoody/dunwoody.component';
+import { FloweryBranchComponent } from './components/pages/service-areas/flowery-branch/flowery-branch.component';
+import { FortMillComponent } from './components/pages/service-areas/fort-mill/fort-mill.component';
+import { GainesvilleComponent } from './components/pages/service-areas/gainesville/gainesville.component';
+import { GalvestonComponent } from './components/pages/service-areas/galveston/galveston.component';
+import { HoschtonComponent } from './components/pages/service-areas/hoschton/hoschton.component';
+import { HoustonComponent } from './components/pages/service-areas/houston/houston.component';
+import { JacksonvilleComponent } from './components/pages/service-areas/jacksonville/jacksonville.component';
+import { JohnsCreekComponent } from './components/pages/service-areas/johns-creek/johns-creek.component';
+import { KennesawComponent } from './components/pages/service-areas/kennesaw/kennesaw.component';
+import { LilburnComponent } from './components/pages/service-areas/lilburn/lilburn.component';
+import { LoganvilleComponent } from './components/pages/service-areas/loganville/loganville.component';
+import { MariettaComponent } from './components/pages/service-areas/marietta/marietta.component';
+import { MiltonComponent } from './components/pages/service-areas/milton/milton.component';
+import { MyrtleBeachComponent } from './components/pages/service-areas/myrtle-beach/myrtle-beach.component';
+import { PalmValleyComponent } from './components/pages/service-areas/palm-valley/palm-valley.component';
+import { PeachtreeCornersComponent } from './components/pages/service-areas/peachtree-corners/peachtree-corners.component';
+import { PonteVedraComponent } from './components/pages/service-areas/ponte-vedra/ponte-vedra.component';
+import { RoswellComponent } from './components/pages/service-areas/roswell/roswell.component';
+import { SandySpringsComponent } from './components/pages/service-areas/sandy-springs/sandy-springs.component';
+import { SnellvilleComponent } from './components/pages/service-areas/snellville/snellville.component';
+import { OrangeParkComponent } from './components/pages/service-areas/orange-park/orange-park.component';
+import { OrlandoComponent } from './components/pages/service-areas/orlando/orlando.component';
+import { SmyrnaComponent } from './components/pages/service-areas/smyrna/smyrna.component';
+import { StAugustineComponent } from './components/pages/service-areas/st-augustine/st-augustine.component';
+import { SugarHillComponent } from './components/pages/service-areas/sugar-hill/sugar-hill.component';
+import { SuwaneeComponent } from './components/pages/service-areas/suwanee/suwanee.component';
+import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.component';
+import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
+import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
+import { CouponComponent } from './components/pages/coupon/coupon.component';
 
 @NgModule({
   declarations: [
@@ -277,6 +320,49 @@ import { NotFoundComponent } from './components/pages/not-found/not-found.compon
     MultiStepFormComponent,
     FreeQuoteComponent,
     NotFoundComponent,
+    AlpharettaComponent,
+    AtlantaComponent,
+    ServiceAreasParagraphComponent,
+    AthensComponent,
+    BraseltonComponent,
+    BufordComponent,
+    ChateauElanComponent,
+    ConcordeComponent,
+    CummingComponent,
+    DaculaComponent,
+    DecaturComponent,
+    DuluthComponent,
+    DunwoodyComponent,
+    FloweryBranchComponent,
+    FortMillComponent,
+    GainesvilleComponent,
+    GalvestonComponent,
+    HoschtonComponent,
+    HoustonComponent,
+    JacksonvilleComponent,
+    JohnsCreekComponent,
+    KennesawComponent,
+    LilburnComponent,
+    LoganvilleComponent,
+    MariettaComponent,
+    MiltonComponent,
+    MyrtleBeachComponent,
+    PalmValleyComponent,
+    PeachtreeCornersComponent,
+    PonteVedraComponent,
+    RoswellComponent,
+    SandySpringsComponent,
+    SnellvilleComponent,
+    OrangeParkComponent,
+    OrlandoComponent,
+    SmyrnaComponent,
+    StAugustineComponent,
+    SugarHillComponent,
+    SuwaneeComponent,
+    TuckerComponent,
+    ViningsComponent,
+    WinterParkComponent,
+    CouponComponent,
   ],
   imports: [
     BrowserModule,
