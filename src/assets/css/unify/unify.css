@@ -11819,78 +11819,6 @@ svg.g-transition--linear polygon {
 }
 
 /* Gray Colors */
-.g-color-gray-light-v1 {
-  color: #bbb !important;
-}
-
-.g-color-gray-light-v1--hover:hover {
-  color: #bbb !important;
-}
-
-.g-color-gray-light-v2 {
-  color: #ccc !important;
-}
-
-.g-color-gray-light-v2--hover:hover {
-  color: #ccc !important;
-}
-
-.g-color-gray-light-v3 {
-  color: #ddd !important;
-}
-
-.g-color-gray-light-v3--hover:hover {
-  color: #ddd !important;
-}
-
-.g-color-gray-light-v4 {
-  color: #eee !important;
-}
-
-.g-color-gray-light-v4--hover:hover {
-  color: #eee !important;
-}
-
-.g-color-gray-light-v4-opacity-0_6 {
-  color: rgba(238, 238, 238, 0.6) !important;
-}
-
-.g-color-gray-light-v5 {
-  color: #f7f7f7 !important;
-}
-
-.g-color-gray-light-v5--hover:hover {
-  color: #f7f7f7 !important;
-}
-
-.g-color-gray-dark-v1 {
-  color: #111 !important;
-}
-
-.g-color-gray-dark-v1--hover:hover {
-  color: #111 !important;
-}
-
-.g-color-gray-dark-v2 {
-  color: #333 !important;
-}
-
-.g-color-gray-dark-v2--hover:hover {
-  color: #333 !important;
-}
-
-.g-color-gray-dark-v2-opacity-0_75 {
-  color: rgba(51, 51, 51, 0.75) !important;
-}
-
-.g-color-gray-dark-v3 {
-  color: #555 !important;
-}
-
-.g-color-gray-dark-v3--hover:hover {
-  color: #555 !important;
-}
-
 .g-color-gray-dark-v4 {
   color: #777 !important;
 }
@@ -12016,56 +11944,6 @@ svg.g-transition--linear polygon {
 .g-color-linkedin--hover:hover {
   color: #0e76a8 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------------------
   Widths
