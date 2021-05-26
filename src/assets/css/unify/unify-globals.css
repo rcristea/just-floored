@@ -6193,11 +6193,11 @@ svg.g-transition--linear polygon {
 /* Complementary Colors
 ------------------------------------*/
 /* Color Green */
-.g-color-green {
+. g-color-primary {
   color: #ee8d39 !important;
 }
 
-.g-color-green--hover:hover {
+. g-color-primary--hover:hover {
   color: #ee8d39 !important;
 }
 
