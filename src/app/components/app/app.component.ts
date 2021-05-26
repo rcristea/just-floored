@@ -31,8 +31,8 @@ export class AppComponent implements OnInit {
           }
 
           return route;
-        })
-      ).pipe(filter(route => route.outlet === 'primary'))
+        }))
+      .pipe(filter(route => route.outlet === 'primary'))
       .pipe(mergeMap(route => route.data))
       .subscribe(event => this.titleService.setTitle(event['title']));
   }
