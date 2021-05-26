@@ -32,7 +32,7 @@ export class MultiStepFormComponent implements OnInit {
     propertyType: null,
     date: "",
     time: null,
-    productsOfInterest: null,
+    productsOfInterest: '',
     roomsOfInterest: ["", ""], // Make the type string[] so we can assign the checkbox keys to this
     fullName: null,
     email: null,
@@ -45,7 +45,7 @@ export class MultiStepFormComponent implements OnInit {
     ownOrRent: null,
   }
 
-  productsOfInterestOther = null;
+  productsOfInterestOtherTrigger = '';
 
   roomsOfInterestItems = [
     { key: 'Basement', text: 'Basement' },
@@ -61,7 +61,7 @@ export class MultiStepFormComponent implements OnInit {
 
     this.formTwo = this.formBuilder.group({
       productsOfInterest: [null, Validators.required],
-      productsOfInterestOther: null,
+      productsOfInterestOther: '',
       roomsOfInterestGroup: this.formBuilder.group({
         basementCheckbox: false,
         bathroomCheckbox: false,
@@ -123,7 +123,11 @@ export class MultiStepFormComponent implements OnInit {
   step2() {
     if (this.formTwo.valid) {
       this.step = 3;
-      this.multiStepForm.productsOfInterest = this.formTwo.controls.productsOfInterest.value;
+      if (this.productsOfInterestOtherTrigger === 'Other') {
+        this.multiStepForm.productsOfInterest = this.formTwo.controls.productsOfInterestOther.value;
+      } else {
+        this.multiStepForm.productsOfInterest = this.formTwo.controls.productsOfInterest.value;
+      }
 
       let roomsGroup: FormGroup;
       roomsGroup = <FormGroup> this.formTwo.get('roomsOfInterestGroup');
