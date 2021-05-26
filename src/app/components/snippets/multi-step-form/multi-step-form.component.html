@@ -89,7 +89,7 @@
     <form (submit)="step2()" [formGroup]="formTwo" #formTwoValidate="ngForm" class="g-pa-30 g-mb-30">
       <h4 class="h6 g-font-weight-700 g-mb-10">Products of Interest:</h4>
       <div class="form-group g-mb-5">
-        <select class="form-control rounded-0" formControlName="productsOfInterest" [(ngModel)]="productsOfInterestOther">
+        <select class="form-control rounded-0" formControlName="productsOfInterest" [(ngModel)]="productsOfInterestOtherTrigger">
           <option>Wood Floor Installation</option>
           <option>Ceramic / Porcelain / Stone Installation</option>
           <option>Wood Floor Repair</option>
@@ -102,7 +102,7 @@
       <div class="g-mb-20">
         <small class="g-color-red" *ngIf="formTwo.hasError('required', 'productsOfInterest') && formTwoValidate.submitted">This is a required field.</small>
       </div>
-      <div class="form-group g-mb-20" *ngIf="productsOfInterestOther === 'Other'">
+      <div class="form-group g-mb-20" *ngIf="productsOfInterestOtherTrigger === 'Other'">
         <input class="form-control form-control-md rounded-0" type="text" formControlName="productsOfInterestOther" placeholder="If 'Other', what are you looking for?">
       </div>
       <h4 class="h6 g-font-weight-700 g-mb-10">Room interested in:</h4>
