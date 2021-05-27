@@ -187,6 +187,8 @@ import { TuckerComponent } from './components/pages/service-areas/tucker/tucker.
 import { ViningsComponent } from './components/pages/service-areas/vinings/vinings.component';
 import { WinterParkComponent } from './components/pages/service-areas/winter-park/winter-park.component';
 import { CouponComponent } from './components/pages/coupon/coupon.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -372,6 +374,12 @@ import { CouponComponent } from './components/pages/coupon/coupon.component';
     RecaptchaModule,
     RecaptchaFormsModule,
     DatepickerModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [
     SendEmailService,

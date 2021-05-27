@@ -1,0 +1,17 @@
+{
+  "name": "just-floored",
+  "short_name": "just-floored",
+  "theme_color": "#ee8d39",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/img/logo_jf_icon.png",
+      "sizes": "148x148",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
