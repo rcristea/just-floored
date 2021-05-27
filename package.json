@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-prod": "ng build --prod --aot --vendor-chunk --common-chunk --delete-output-path --build-optimizer"
+    "build_prod": "ng build --configuration production --aot --common-chunk --delete-output-path --build-optimizer --optimization"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
     "ng2-datepicker": "^11.1.0",
     "nodemailer": "^6.6.0",
     "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
+    "tslib": "^2.1.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
