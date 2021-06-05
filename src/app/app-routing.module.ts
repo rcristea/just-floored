@@ -170,6 +170,7 @@ import { CouponComponent } from './components/pages/coupon/coupon.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent, data: { title: 'Your Harwood Floor, Tile, and Vinyl Specialists | Just Floored' } },
+  { path: 'home', component: HomePageComponent, data: { title: 'Your Harwood Floor, Tile, and Vinyl Specialists | Just Floored' } },
   { path: 'about-us', component: AboutUsComponent, data: { title: 'Your Harwood Floor, Tile, and Vinyl Specialists | Just Floored' } },
   { path: 'floors', component: FloorsComponent, data: { title: 'Products and Floors | Just Floored' } },
   { path: 'solid-wood-flooring', component: SolidWoodFlooringComponent, data: { title: 'Hardwood flooring installation in either pre-finished or unfinished wood planks to finish onsite | Just Floored' } },
